@@ -54,7 +54,7 @@
                 <div class="flex-grow">
                     <h2 class="text-gray-900 text-lg font-title font-bold mb-3">ITK-Services</h2>
                     <p class="leading-relaxed font-basic text-base">Sie benötigen technische Ausstattung oder Hilfe bei der Installation und Beschaffung? Sowohl bei der benötigten Soft- und Hardware helfen wir Ihnen gerne analog oder digital Fuß zu fassen und solide Lösungen für Sie oder Ihr Unternehmen zu finden und zu installieren.</p>
-                    <a class="mt-3 text-mtw-primary inline-flex items-center font-basic" href="#kontakt">Sie beraten Sie gerne
+                    <a class="mt-3 text-mtw-primary inline-flex items-center font-basic" href="#kontakt">Wir beraten Sie gerne
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
