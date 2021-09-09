@@ -1,5 +1,5 @@
 <section class="text-gray-700 body-font bg-gray-100">
-    <div id="portfolio" class="container px-5 pb-24 pt-10 mx-auto">
+    <div id="portfolio" class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
             <h1 class="sm:text-3xl text-2xl font-semibold font-title text-mtw-text mb-4">Portfolio</h1>
             <div class="flex mt-6 justify-center">
