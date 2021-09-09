@@ -54,6 +54,7 @@
                 <p class="leading-normal my-5 font-basic">Am Spargelfeld 9
                     <br>53797 Lohmar
                 </p>
+                <!--
                 <span class="inline-flex">
             <a class="text-gray-500">
               <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -77,6 +78,7 @@
               </svg>
             </a>
           </span>
+                -->
             </div>
         </div>
     </form>
