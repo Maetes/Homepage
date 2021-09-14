@@ -11,8 +11,8 @@ const workboxPlugin = require('workbox-webpack-plugin');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .js('resources/js/app_defer.js','public/js')
+mix.js('resources/js/app.js', 'public/js').extract()
+    .js('resources/js/app_defer.js','public/js').extract()
     .vue()
     .postCss('resources/css/app.css', 'public/css', [
         require("tailwindcss"),
@@ -33,3 +33,7 @@ mix.webpackConfig({
         publicPath: ''
     }
 })
+
+if (mix.inProduction()) {
+    mix.version();
+}
