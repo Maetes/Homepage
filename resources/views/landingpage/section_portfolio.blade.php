@@ -9,7 +9,7 @@
 
         <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:translate-x-5 ease-out duration-300">
             <div class="sm:w-56 sm:h-32 h-20 w-56 sm:mr-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
-                <img src="{{asset('./img/logos/wordpress.svg')}}" alt="Wordpress Logo">
+                <img width="230" height="77" src="{{asset('./img/logos/wordpress.svg')}}" alt="Wordpress Logo">
             </div>
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                 <h2 class="text-gray-900 text-lg font-title font-semibold mb-2 ">Wordpress</h2>
@@ -51,14 +51,14 @@
                 --}}
             </div>
             <div class="sm:w-56 sm:order-none order-first sm:h-32 h-20 w-56 sm:ml-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
-                <img src="{{asset('./img/logos/typo3.svg')}}" alt="Typo3 Logo">
+                <img width="230" height="77" src="{{asset('./img/logos/typo3.svg')}}" alt="Typo3 Logo">
             </div>
         </div>
 
 
         <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:translate-x-5 ease-out duration-300">
             <div class="sm:w-56 sm:h-32 h-20 w-56 sm:mr-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
-                <img src="{{asset('./img/logos/shopware.svg')}}" alt="Shopware Logo">
+                <img width="230" height="77" src="{{asset('./img/logos/shopware.svg')}}" alt="Shopware Logo">
             </div>
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                 <h2 class="text-gray-900 text-lg font-title font-semibold mb-2">Shopware</h2>
@@ -95,7 +95,7 @@
                 --}}
             </div>
             <div class="sm:w-56 sm:order-none order-first sm:h-32 h-20 w-56 sm:ml-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
-                <img src="{{asset('./img/logos/laravel.svg')}}" alt="Laravel Logo">
+                <img width="230" height="77" src="{{asset('./img/logos/laravel.svg')}}" alt="Laravel Logo">
             </div>
         </div>
 
