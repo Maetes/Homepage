@@ -16,7 +16,7 @@ precacheAndRoute(self.__WB_MANIFEST);
 
 // registerRoute(
 //     new RegExp('.(?:js|css|ico)$'),
-//     new NetworkFirst({
+//     new CacheFirst({
 //         cacheName: 'staticCache'
 //     }),
 // )
@@ -52,6 +52,14 @@ registerRoute(
         request.destination === 'style',
     new StaleWhileRevalidate({
         cacheName: 'static-resources',
+    })
+);
+
+//Fonts
+registerRoute(
+    ({request}) => request.destination === 'font',
+    new StaleWhileRevalidate({
+        cacheName: 'fonts',
     })
 );
 
