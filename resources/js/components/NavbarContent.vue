@@ -85,8 +85,4 @@ export default {
 }
 </script>
 
-<style scoped>
-.bg-mtw-navbar{
-    background-color: #7FACBF;
-}
-</style>
+
