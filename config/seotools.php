@@ -11,7 +11,7 @@ return [
         'defaults'       => [
             'title'        => "MTW IT-Solutions UG (haftungsbeschränkt)|Bonn Rhein-Sieg", // set false to total remove
             'titleBefore'  => false, // Put defaults.title before page title, like 'It's Over 9000! - Dashboard'
-            'description'  => 'ΜΤϢ ⚫Webentwicklung ⚫Appentwicklung ⚫IT-Beratung ⚫ITK-Services ⇒ Wir entwickeln Ihre Website/Homepage und beraten Sie gerne in allen IT Themen', // set false to total remove
+            'description'  => '⚫Webentwicklung ⚫Appentwicklung ⚫IT-Beratung ⚫ITK-Services ⇒ Wir entwickeln Ihre Website/Homepage und beraten Sie gerne in allen IT Themen', // set false to total remove
             'separator'    => ' - ',
             'keywords'     => ['website erstellung', 'homepage erstellung','website erstellen', 'wordpress', 'app', 'it beratung', 'appentwicklung', 'webentwicklung', 'cms', 'typo3', 'laravel', 'softwareentwicklung', 'website', 'homepage', 'bonn', 'rhein-sieg-kreis', 'rhein-sieg'],
             'canonical'    => false, // Set null for using Url::current(), set false to total remove
@@ -37,7 +37,7 @@ return [
          */
         'defaults' => [
             'title'       => 'MTW IT-Solutions UG (haftungsbeschränkt)|Bonn Rhein-Sieg', // set false to total remove
-            'description' => 'ΜΤϢ ⚫Webentwicklung ⚫Appentwicklung ⚫IT-Beratung ⚫ITK-Services ⇒ Wir entwickeln Ihre Website/Homepage und beraten Sie gerne in allen IT Themen', // set false to total remove
+            'description' => '⚫Webentwicklung ⚫Appentwicklung ⚫IT-Beratung ⚫ITK-Services ⇒ Wir entwickeln Ihre Website/Homepage und beraten Sie gerne in allen IT Themen', // set false to total remove
             'url'         => 'https://mtw-it.de', // Set null for using Url::current(), set false to total remove
             'type'        => 'website',
             'site_name'   => false,
