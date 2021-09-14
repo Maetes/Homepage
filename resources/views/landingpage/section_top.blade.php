@@ -5,7 +5,7 @@
 
 
 
-<section class="flex flex-col h-full text-mtw-text relative" >
+<section class="flex flex-col h-full text-gray-800 relative" >
 {{--    <div class="absolute top-0 w-full h-full">--}}
 {{--        <svg xmlns="http://www.w3.org/2000/svg" height="100%" width="100%">--}}
 {{--            <path fill="#0099ff" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,202.7C384,192,480,160,576,154.7C672,149,768,171,864,165.3C960,160,1056,128,1152,128C1248,128,1344,160,1392,176L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>--}}
