@@ -1,7 +1,7 @@
 <section class="text-gray-700 body-font bg-gray-100">
     <div id="portfolio" class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-3xl text-2xl font-semibold font-title text-mtw-text mb-4">Portfolio</h1>
+            <h2 class="sm:text-3xl text-2xl font-semibold font-title text-mtw-text mb-4">Portfolio</h2>
             <div class="flex mt-6 justify-center">
                 <div class="w-16 h-1 rounded-full bg-mtw-primary inline-flex"></div>
             </div>
@@ -12,7 +12,7 @@
                 <img width="230" height="77" src="{{asset('./img/logos/wordpress.svg')}}" alt="Wordpress Logo">
             </div>
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                <h2 class="text-gray-900 text-lg font-title font-semibold mb-2 ">Wordpress</h2>
+                <h3 class="text-gray-900 text-lg font-title font-semibold mb-2 ">Wordpress</h3>
                 <p class="leading-relaxed text-base font-basic">
                     Das <abbr title="Content-Management-System">CMS</abbr> WordPress hat sich durch seine
                     einfache Bedienbarkeit und durch die Möglichkeit der schnellen Umsetzung vom reinen
@@ -32,7 +32,7 @@
 
         <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:-translate-x-5 ease-out duration-300">
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0 ">
-                <h2 class="text-gray-900 text-lg font-title font-semibold mb-2">Typo3</h2>
+                <h3 class="text-gray-900 text-lg font-title font-semibold mb-2">Typo3</h3>
                 <p class="leading-relaxed text-base font-basic">
                     TYPO3 ist ein Open-Source-CMS, welches sich besonders für größere Firmen mit umfangreichen
                     Projekten und großen Datenmengen eignet. Mit TYPO3 haben Sie unter anderem die Möglichkeit
@@ -61,7 +61,7 @@
                 <img width="230" height="77" src="{{asset('./img/logos/shopware.svg')}}" alt="Shopware Logo">
             </div>
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                <h2 class="text-gray-900 text-lg font-title font-semibold mb-2">Shopware</h2>
+                <h3 class="text-gray-900 text-lg font-title font-semibold mb-2">Shopware</h3>
                 <p class="leading-relaxed text-base font-basic">
                     Shopware ist die ideale Wahl für alle Unternehmen, die einen kundenorientierten und erfolgreichen Onlineshop betreiben möchten.
                     Durch die einfache und intuitive zu bedienende Backend-Oberfläche sind Shop-Betreiber in der Lage, im laufenden Betrieb viele
@@ -79,7 +79,7 @@
 
         <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:-translate-x-5 ease-out duration-300">
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0 ">
-                <h2 class="text-gray-900 text-lg font-title font-semibold mb-2">Laravel</h2>
+                <h3 class="text-gray-900 text-lg font-title font-semibold mb-2">Laravel</h3>
                 <p class="leading-relaxed text-base font-basic">
                     Laravel ist ein plattformübergreifendes PHP-Framework für die Entwicklung von Webanwendungen.
                     Laravel-Anwendungen sind hoch skalierbar und haben eine einfach zu wartende Codebasis.

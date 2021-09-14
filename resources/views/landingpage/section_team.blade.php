@@ -2,7 +2,7 @@
     <div id="team" class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full">
             <div class="text-center mb-20">
-                <h1 class="sm:text-3xl text-2xl font-semibold font-title text-mtw-text mb-4">Unser Team</h1>
+                <h2 class="sm:text-3xl text-2xl font-semibold font-title text-mtw-text mb-4">Unser Team</h2>
                 {{--            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p>--}}
                 <div class="flex mt-6 justify-center">
                     <div class="w-16 h-1 rounded-full bg-mtw-primary inline-flex"></div>
@@ -14,8 +14,8 @@
                 <div class="h-full flex flex-col items-center text-center">
                     <img width="256" height="224" alt="team" class="opacity-60 hover:opacity-90 flex-shrink-0 rounded-lg w-64 h-56 object-cover object-center mb-4" src="./img/team/martin.webp">
                     <div class="w-full">
-                        <h2 class="title-font font-medium text-lg text-gray-900">Martin Müller</h2>
-                        <h3 class="text-gray-500 mb-3">Co-Founder & <abbr title="Chief Financial Officer">CFO</abbr></h3>
+                        <h3 class="title-font font-medium text-lg text-gray-900">Martin Müller</h3>
+                        <h4 class="text-gray-500 mb-3">Co-Founder & <abbr title="Chief Financial Officer">CFO</abbr></h4>
                         <span class="inline-flex">
 
                             {{--<a class="text-gray-500">
@@ -42,8 +42,8 @@
                 <div class="h-full flex flex-col items-center text-center">
                     <img width="256" height="224" alt="team" class="opacity-60 hover:opacity-90 flex-shrink-0 rounded-lg w-64 h-56 object-cover object-center mb-4" src="./img/team/tim.webp">
                     <div class="w-full">
-                        <h2 class="title-font font-medium text-lg text-gray-900">Tim Tomczak</h2>
-                        <h3 class="text-gray-500 mb-3">Co-Founder & <abbr title="Chief Operating Officer">COO</abbr></h3>
+                        <h3 class="title-font font-medium text-lg text-gray-900">Tim Tomczak</h3>
+                        <h4 class="text-gray-500 mb-3">Co-Founder & <abbr title="Chief Operating Officer">COO</abbr></h4>
                         <span class="inline-flex">
 
                             {{-- <a class="text-gray-500">
@@ -69,8 +69,8 @@
                 <div class="h-full flex flex-col items-center text-center">
                     <img width="256" height="224" alt="team" class="opacity-60 hover:opacity-90 flex-shrink-0 rounded-lg w-64 h-56 object-cover mb-4" src="/img/team/sven.webp">
                     <div class="w-full">
-                        <h2 class="title-font font-medium text-lg text-gray-900">Sven Walbröl</h2>
-                        <h3 class="text-gray-500 mb-3">Co-Founder & <abbr title="Chief Technology Officer">CTO</abbr></h3>
+                        <h3 class="title-font font-medium text-lg text-gray-900">Sven Walbröl</h3>
+                        <h4 class="text-gray-500 mb-3">Co-Founder & <abbr title="Chief Technology Officer">CTO</abbr></h4>
                         <span class="inline-flex">
 
                             {{-- <a class="text-gray-500">

@@ -9,9 +9,9 @@ return [
          * The default configurations to be used by the meta generator.
          */
         'defaults'       => [
-            'title'        => "MTW IT-Solutions UG (haftungsbeschränkt)", // set false to total remove
+            'title'        => "MTW IT-Solutions UG (haftungsbeschränkt)|Bonn Rhein-Sieg", // set false to total remove
             'titleBefore'  => false, // Put defaults.title before page title, like 'It's Over 9000! - Dashboard'
-            'description'  => 'ΜΤϢ ⚫Webentwicklung ⚫Appentwicklung ⚫IT-Beratung ⚫ITK-Services ⇒ Wir entwickeln Ihre Website/Homepage und beraten Sie gerne in allen IT bezogenen Themen', // set false to total remove
+            'description'  => 'ΜΤϢ ⚫Webentwicklung ⚫Appentwicklung ⚫IT-Beratung ⚫ITK-Services ⇒ Wir entwickeln Ihre Website/Homepage und beraten Sie gerne in allen IT Themen', // set false to total remove
             'separator'    => ' - ',
             'keywords'     => ['website erstellung', 'homepage erstellung','website erstellen', 'wordpress', 'app', 'it beratung', 'appentwicklung', 'webentwicklung', 'cms', 'typo3', 'laravel', 'softwareentwicklung', 'website', 'homepage', 'bonn', 'rhein-sieg-kreis', 'rhein-sieg'],
             'canonical'    => false, // Set null for using Url::current(), set false to total remove
@@ -36,8 +36,8 @@ return [
          * The default configurations to be used by the opengraph generator.
          */
         'defaults' => [
-            'title'       => 'MTW IT-Solutions UG (haftungsbeschränkt)', // set false to total remove
-            'description' => 'ΜΤϢ ⚫Webentwicklung ⚫Appentwicklung ⚫IT-Beratung ⚫ITK-Services ⇒ Wir entwickeln Ihre Website/Homepage und beraten Sie gerne in allen IT bezogenen Themen', // set false to total remove
+            'title'       => 'MTW IT-Solutions UG (haftungsbeschränkt)|Bonn Rhein-Sieg', // set false to total remove
+            'description' => 'ΜΤϢ ⚫Webentwicklung ⚫Appentwicklung ⚫IT-Beratung ⚫ITK-Services ⇒ Wir entwickeln Ihre Website/Homepage und beraten Sie gerne in allen IT Themen', // set false to total remove
             'url'         => 'https://mtw-it.de', // Set null for using Url::current(), set false to total remove
             'type'        => 'website',
             'site_name'   => false,
@@ -59,8 +59,8 @@ return [
          * The default configurations to be used by the json-ld generator.
          */
         'defaults' => [
-            'title'       => 'MTW IT-Solutions UG (haftungsbeschränkt)', // set false to total remove
-            'description' => 'ΜΤϢ ⚫Webentwicklung ⚫Appentwicklung ⚫IT-Beratung ⚫ITK-Services ⇒ Wir entwickeln Ihre Website/Homepage und beraten Sie gerne in allen IT bezogenen Themen', // set false to total remove
+            'title'       => 'MTW IT-Solutions UG (haftungsbeschränkt)|Bonn Rhein-Sieg', // set false to total remove
+            'description' => '⚫Webentwicklung ⚫Appentwicklung ⚫IT-Beratung ⚫ITK-Services ⇒ Wir entwickeln Ihre Website/Homepage und beraten Sie gerne in allen IT Themen', // set false to total remove
             'url'         => 'https://mtw-it.de', // Set null for using Url::current(), set false to total remove
             'type'        => 'WebPage',
             'images'      => [],
