@@ -17,11 +17,18 @@
         "lodash": "^4.17.19",
         "postcss": "^8.3.6",
         "tailwindcss": "^2.2.9",
-        "vue-loader": "^16.2.0"
+        "vue-loader": "^16.2.0",
+        "workbox-webpack-plugin": "^6.3.0"
     },
     "dependencies": {
         "swiper": "^7.0.3",
         "typed.js": "^2.0.12",
-        "vue": "^3.2.8"
+        "vue": "^3.2.8",
+        "workbox-cacheable-response": "^6.3.0",
+        "workbox-expiration": "^6.3.0",
+        "workbox-navigation-preload": "^6.3.0",
+        "workbox-precaching": "^6.3.0",
+        "workbox-routing": "^6.3.0",
+        "workbox-strategies": "^6.3.0"
     }
 }
