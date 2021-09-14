@@ -59,7 +59,7 @@ return [
          * The default configurations to be used by the json-ld generator.
          */
         'defaults' => [
-            'title'       => 'Over 9000 Thousand!', // set false to total remove
+            'title'       => 'MTW IT-Solutions UG (haftungsbeschränkt)', // set false to total remove
             'description' => 'ΜΤϢ ⚫Webentwicklung ⚫Appentwicklung ⚫IT-Beratung ⚫ITK-Services ⇒ Wir entwickeln Ihre Website/Homepage und beraten Sie gerne in allen IT bezogenen Themen', // set false to total remove
             'url'         => 'https://mtw-it.de', // Set null for using Url::current(), set false to total remove
             'type'        => 'WebPage',
