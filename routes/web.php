@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
@@ -43,4 +44,9 @@ Route::post('/email', function (\Illuminate\Http\Request $request) {
 })->name('email');
 
 
-
+Route::prefix('team')->group(function(){
+    Route::get('/',[TeamController::class,'index']);
+    Route::get('martinmueller',[TeamController::class,'martinmueller']);
+    Route::get('timtomczak',[TeamController::class,'timtomczak']);
+    Route::get('svenwalbroel',[TeamController::class,'svenwalbroel']);
+});

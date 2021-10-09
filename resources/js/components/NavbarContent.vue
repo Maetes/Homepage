@@ -1,7 +1,7 @@
 <template>
     <div>
         <div  class="h-20 relative flex justify-between items-center font-basic font-semibold mx-5 sm:mx-20 xl:mx-44" :class="[showFixedNavbar ? 'text-mtw-text' : 'text-black']">
-            <a href=".">
+            <a href="/">
                 <img src="/img/logos/mtw.png" style="width: 100px;" alt="Logo">
             </a>
             <MenuComponent @disableNavbar="emitDisableNavbar" ref="menu"></MenuComponent>
