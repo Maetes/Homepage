@@ -46,9 +46,9 @@ Route::post('/email', function (\Illuminate\Http\Request $request) {
 
 Route::prefix('team')->group(function(){
     // Route::get('/',[TeamController::class,'index']);
-    Route::get('martinmueller',[TeamController::class,'martinmueller']);
-    Route::get('martinmüller',[TeamController::class,'martinmueller']);
-    Route::get('timtomczak',[TeamController::class,'timtomczak']);
-    Route::get('svenwalbroel',[TeamController::class,'svenwalbroel']);
-    Route::get('svenwalbröl',[TeamController::class,'svenwalbroel']);
+    Route::get('martinmueller',[TeamController::class,'martinmueller'])->name('team.martin');
+    Route::get('martinmüller',[TeamController::class,'martinmueller'])->name('team.martin');
+    Route::get('timtomczak',[TeamController::class,'timtomczak'])->name('team.tim');
+    Route::get('svenwalbroel',[TeamController::class,'svenwalbroel'])->name('team.sven');
+    Route::get('svenwalbröl',[TeamController::class,'svenwalbroel'])->name('team.sven');
 });
