@@ -5,28 +5,39 @@
                 <img src="/img/logos/mtw.png" style="width: 100px;" alt="Logo">
             </a>
             <MenuComponent @disableNavbar="emitDisableNavbar" ref="menu"></MenuComponent>
-            <div  class="hidden h-full relative xl:w-1/2 lg:flex w-1/2 justify-between items-center">
+            <div  class="hidden h-full relative lg:flex w-3/5 justify-between items-center">
                 <a @click="toggleServicesDropdown" @mouseenter="showServicesDropdown"  class="relative inline-flex items-center" :class="{'border-b-4 border-mtw-secondary': windowHash==='#services'}">
                     <span>Services</span>
                     <img v-if="!servicesDropdownIsVisible" class="ml-1 w-4 h-4" src="/img/icons/chevron-down.svg">
                     <img v-else class="ml-1 w-4 h-4" src="/img/icons/chevron-up.svg">
                 </a>
-                <div @mouseleave="toggleServicesDropdown" v-if="servicesDropdownIsVisible" class="absolute mt-3 transform translate-y-20 -translate-x-12 ">
+                <div @mouseleave="toggleServicesDropdown" v-show="servicesDropdownIsVisible" class="absolute mt-3 transform translate-y-20 -translate-x-12 ">
                     <div class="py-3 px-6 h-1/3 rounded-xl shadow-md font-basic text-sm bg-white border">
                         <div class="flex flex-col space-y-3">
-                            <a href="#services" class="ease-linear inline-flex items-center">
-                                <span>Web- und Appentwicklung</span>
-                            </a>
-                            <a href="#services" class="">IT-Beratung</a>
-                            <a href="#services" class="">ITK-Services</a>
+                            <a href="#services" class="border-b-2 border-opacity-0 transform hover:border-opacity-100 hover:border-mtw-primary-lighter hover:text-gray-700 hover:translate-x-1">Web- und Appentwicklung</a>
+                            <a href="#services" class="border-b-2 border-opacity-0 transform hover:border-opacity-100 hover:border-mtw-primary-lighter hover:text-gray-700 hover:translate-x-1">IT-Beratung</a>
+                            <a href="#services" class="border-b-2 border-opacity-0 transform hover:border-opacity-100 hover:border-mtw-primary-lighter hover:text-gray-700 hover:translate-x-1">ITK-Services</a>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="relative inline-flex items-center" :class="{'border-b-4 border-mtw-secondary': windowHash==='#portfolio'}" href="/#portfolio">Portfolio</a>
+                <a @click="toggleTeamDropdown" @mouseenter="showTeamDropdown" class="relative inline-flex items-center" :class="{'border-b-4 border-mtw-secondary': windowHash==='#team'}">
+                    <span>Über uns</span>
+                    <img v-if="!teamDropdownIsVisible" class="ml-1 w-4 h-4" src="/img/icons/chevron-down.svg">
+                    <img v-else class="ml-1 w-4 h-4" src="/img/icons/chevron-up.svg">
+                </a>
+                <div @mouseleave="toggleTeamDropdown" v-show="teamDropdownIsVisible" class="absolute mt-3 transform translate-y-20 translate-x-48 ">
+                    <div class="py-3 px-6 h-1/3 rounded-xl shadow-md font-basic text-sm bg-white border">
+                        <div class="flex flex-col space-y-3">
+                            <a href="/team/martinmüller" class="border-b-2 border-opacity-0 transform hover:border-opacity-100 hover:border-mtw-primary-lighter hover:text-gray-700 hover:translate-x-1">Martin Müller</a>
+                            <a href="/team/timtomczak" class="border-b-2 border-opacity-0 transform hover:border-opacity-100 hover:border-mtw-primary-lighter hover:text-gray-700 hover:translate-x-1">Tim Tomczak</a>
+                            <a href="/team/svenwalbröl" class="border-b-2 border-opacity-0 transform hover:border-opacity-100 hover:border-mtw-primary-lighter hover:text-gray-700 hover:translate-x-1">Sven Walbröl</a>
                         </div>
                     </div>
 
                 </div>
-
-                <a class="relative inline-flex items-center" :class="{'border-b-4 border-mtw-secondary': windowHash==='#portfolio'}" href="#portfolio">Portfolio</a>
-                <a class="relative inline-flex items-center" :class="{'border-b-4 border-mtw-secondary': windowHash==='#team'}" href="#team">Über uns</a>
-                <a class="relative inline-flex items-center" :class="{'border-b-4 border-mtw-secondary': windowHash==='#kontakt'}" href="#kontakt">Kontakt</a>
+                <a class="relative inline-flex items-center" :class="{'border-b-4 border-mtw-secondary': windowHash==='#kontakt'}" href="/#kontakt">Kontakt</a>
                 <div>
                     <a href="/kundencenter" class="rounded-xl shadow-md px-4 py-2 inline-flex text-mtw-secondary items-center" :class="[showFixedNavbar ? 'bg-mtw-text ' : 'bg-mtw-primary ']">
                         <span class="pr-2">Kundencenter</span>
@@ -55,6 +66,7 @@ export default {
     data(){
         return{
             servicesDropdownIsVisible: false,
+            teamDropdownIsVisible: false,
             windowHash: '',
         }
     },
@@ -70,8 +82,16 @@ export default {
         showServicesDropdown(){
             this.servicesDropdownIsVisible=true;
         },
+
+        toggleTeamDropdown() {
+            this.teamDropdownIsVisible=!this.teamDropdownIsVisible;
+        },
+        showTeamDropdown(){
+            this.teamDropdownIsVisible=true;
+        },
         hideDropdowns(){
             this.servicesDropdownIsVisible=false;
+            this.teamDropdownIsVisible=false;
         },
 
         log(){

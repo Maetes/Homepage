@@ -20,3 +20,4 @@ yarn-error.log
 /public/service-worker.js
 public/service-worker.js
 public/mix-manifest.json
+public/service-worker.js

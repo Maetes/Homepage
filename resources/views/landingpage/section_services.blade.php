@@ -7,7 +7,7 @@
                 <div class="w-16 h-1 rounded-full bg-mtw-primary inline-flex"></div>
             </div>
         </div>
-        <div class="grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 gap-4 lg:gap-4 xl:gap-6 mx-auto px-10">
+        <div class="grid grid-cols-1 grid-rows-3 lg:grid-cols-3 lg:grid-rows-1 gap-4 lg:gap-4 xl:gap-6 mx-auto px-2 sm:px-10">
 {{--        <div class="flex space-x-3 sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">--}}
 
             <div class="p-4 flex flex-col text-center items-center bg-gray-100 rounded-2xl shadow-md transform hover:border hover:border-gray-200 hover:-translate-y-2 hover:bg-mtw-lightblue hover:text-gray-900 ease-out duration-300">

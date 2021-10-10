@@ -18,6 +18,7 @@ module.exports = {
         extend: {
             colors: {
                 'mtw-primary': '#005a80',
+                'mtw-primary-lighter': '#7FACBF',
                 'mtw-secondary': '#BDD251',
                 'mtw-red': '#C65757',
                 'mtw-stoneblue': '#005D72',
