@@ -1,5 +1,5 @@
-@extends('layout.team')
+@extends('layout.team_person')
 
-@section('content')
-    Martin Müller
+@section('info_text')
+
 @endsection

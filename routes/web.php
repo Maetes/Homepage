@@ -45,8 +45,10 @@ Route::post('/email', function (\Illuminate\Http\Request $request) {
 
 
 Route::prefix('team')->group(function(){
-    Route::get('/',[TeamController::class,'index']);
+    // Route::get('/',[TeamController::class,'index']);
     Route::get('martinmueller',[TeamController::class,'martinmueller']);
+    Route::get('martinmüller',[TeamController::class,'martinmueller']);
     Route::get('timtomczak',[TeamController::class,'timtomczak']);
     Route::get('svenwalbroel',[TeamController::class,'svenwalbroel']);
+    Route::get('svenwalbröl',[TeamController::class,'svenwalbroel']);
 });

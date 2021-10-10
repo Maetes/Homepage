@@ -1,5 +1,7 @@
-@extends('layout.team')
+@extends('layout.subpage')
 
 @section('content')
-    Teamübersicht
+    <section class="mx-auto px-12">
+        Teamübersicht
+    </section>
 @endsection

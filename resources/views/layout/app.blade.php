@@ -7,8 +7,8 @@
     {{--  div wird für mounten von Vue benötigt, nicht ändern oder entfernen  --}}
     <div class="relative h-full" id="app">
         <FabButton></FabButton>
-
         @yield('content')
+        @include('layout.footer')
     </div>
 </body>
 </html>

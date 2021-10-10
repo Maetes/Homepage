@@ -1,5 +1,5 @@
-@extends('layout.team')
+@extends('layout.team_person')
 
-@section('content')
-    Tim Tomczak
+@section('info_text')
+
 @endsection

@@ -1,5 +1,4 @@
-@extends('layout.team')
+@extends('layout.team_person')
+@section('info_text')
 
-@section('content')
-    Sven Walbröl
 @endsection
