@@ -6,6 +6,8 @@ import NavbarContent from "./components/NavbarContent";
 import ContactForm from "./components/ContactForm";
 import Typewriter from "./components/Typewriter";
 import FabButton from "./components/FabButton";
+import Dropdown from "./components/Dropdown";
+import DropdownLink from "./components/DropdownLink";
 // import FloatingContactForm from "./components/FloatingContactForm";
 
 const app = createApp({})
@@ -17,5 +19,7 @@ const app = createApp({})
     .component('contactform',ContactForm)
     .component('typewriter',Typewriter)
     .component('fabbutton',FabButton)
+    .component('dropdown',Dropdown)
+    .component('dropdownlink',Dropdown)
     // .component('floatingcontactform',FloatingContactForm)
     .mount('#app');
