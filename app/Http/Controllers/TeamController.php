@@ -51,14 +51,15 @@ class TeamController extends Controller
 
     private function setMeta(Array $info){
         SEOMeta::setTitleDefault($info['name'].' - '.$info['position'].' bei '.config('data.info_company.name_short'));
-        SEOMeta::setDescription($info['name'].' ist '.$info['position'].' bei '.config('data.info_company.name').'. ⚫ Jetzt Kontakt aufnehmen: ☎ '.$info['telefon'].' ✉ '.$info['email']);
+        SEOMeta::setDescription($info['name'].' ist '.$info['position'].' bei '.config('data.info_company.name').'. ⚫ Jetzt Kontakt aufnehmen: ✉ '.$info['email']);
         // SEOMeta::addKeyword(SEOMeta::getKeywords());
         SEOMeta::addKeyword($info['name']);
         SEOMeta::addKeyword(config('data.info_company.name_short'));
         SEOMeta::addKeyword(config('data.info_company.name'));
+        SEOMeta::addKeyword('Webentwicklung, Webentwickler, Website erstellung, IT-Beratung, Unternehmensberatung');
 
         JsonLd::setTitle($info['name'].' - '.$info['position'].' @ '.config('data.info_company.name_short'));
-        JsonLd::setDescription($info['name'].' ist '.$info['position'].' bei '.config('data.info_company.name').'. ⚫ Jetzt Kontakt aufnehmen: ☎ '.$info['telefon'].' ✉ '.$info['email']);
+        JsonLd::setDescription($info['name'].' ist '.$info['position'].' bei '.config('data.info_company.name').'. ⚫ Jetzt Kontakt aufnehmen:  ✉ '.$info['email']);
         JsonLd::setType('Person');
         // dd(request());
         JsonLd::addImage(request()->server('HTTP_HOST').$info['profile_image']);

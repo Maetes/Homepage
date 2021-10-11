@@ -13,7 +13,7 @@ return [
     'info_martin' => [
         'name' => 'Martin Müller',
         'position' => 'Co-Founder & CFO',
-        'telefon' => '-',
+        'telefon' => '',
         'email' => 'martin@mtw-it.de',
         'profile_image' => '/img/team/martin.webp',
         'text' => '',
@@ -22,7 +22,7 @@ return [
     'info_tim' => [
         'name' => 'Tim Tomczak',
         'position' => 'Co-Founder & COO',
-        'telefon' => '-',
+        'telefon' => '',
         'email' => 'tim@mtw-it.de',
         'profile_image' => '/img/team/tim.webp',
         'text' => '',
@@ -31,7 +31,7 @@ return [
     'info_sven' => [
         'name' => 'Sven Walbröl',
         'position' => 'Co-Founder & CTO',
-        'telefon' => '-',
+        'telefon' => '',
         'email' => 'sven@mtw-it.de',
         'profile_image' => '/img/team/sven.webp',
         'text' => '',

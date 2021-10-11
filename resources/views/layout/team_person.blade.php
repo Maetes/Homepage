@@ -54,6 +54,7 @@
                             </span>
                             {{ $user_info['email'] }}
                         </a>
+                        @if ($user_info['telefon'] !== '')
                         <a href="tel:{{ $user_info['telefon'] }}" class="flex items-center transform hover:scale-105 hover:text-mtw-primary">
                             <span class="text-mtw-primary mr-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
@@ -62,6 +63,7 @@
                             </span>
                             {{ $user_info['telefon'] }}
                         </a>
+                        @endif
                     </div>
                 </div>
                 <div class="lg:hidden col-span-12 p-2 bg-white rounded-md shadow-md mt-2">
