@@ -49,10 +49,11 @@
                     </div>
                 </div>
             </transition>
-            <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a href="mailto:email@mtw-it.de" class="text-mtw-text font-basic">mail@mtw-it.de</a>
-                <p class="leading-normal my-5 font-basic">Am Spargelfeld 9
-                    <br>53797 Lohmar
+            <div class="p-2 grid grid-cols-1 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+                <a :href="'mailto:'+this.info.email" class="text-mtw-text font-basic">{{ this.info.email }}</a>
+                <a :href="'tel:'+this.info.telefon" class="text-mtw-text font-basic mt-2">{{ this.info.telefon }}</a>
+                <p class="leading-normal my-5 font-basic">{{ this.info.adresse_straße }}
+                    <br>{{ this.info.adresse_plz }}
                 </p>
                 <!--
                 <span class="inline-flex">
@@ -89,6 +90,9 @@ const axios = require('axios');
 
 export default {
     name: "ContactForm",
+    props: {
+        info_company: [],
+    },
     data(){
         return{
             name: '',
@@ -101,7 +105,11 @@ export default {
             },
             success: false,
             requestError: false,
+            info: Object,
         }
+    },
+    mounted() {
+        this.info=JSON.parse(this.info_company);
     },
     methods:{
         sendForm(){

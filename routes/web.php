@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('landingpage.home');
+    return view('landingpage.home',['info_company'=>config('data.info_company')]);
 })->name('home');
 
 Route::get('/impressum', function () {

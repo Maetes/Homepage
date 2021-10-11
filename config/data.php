@@ -6,6 +6,8 @@ return [
         'name_short' => 'MTW IT-Solutions',
         'email' => 'mail@mtw-it.de',
         'telefon' => '02241 9558782',
+        'adresse_straße' => 'Am Spargelfeld 9',
+        'adresse_plz' => '53797 Lohmar',
         'logo' => '/img/logos/mtw.png',
         'logo512px' => '/img/logos/mtw_512px.png',
     ],

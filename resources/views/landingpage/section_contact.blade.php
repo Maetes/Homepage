@@ -5,7 +5,8 @@
             <p class="lg:w-2/3 mx-auto leading-relaxed text-base font-basic">Schreiben Sie uns gerne eine Nachricht mit ihren Fragen, Anforderungen oder Projekten.</p>
         </div>
         <div  class="lg:w-1/2 md:w-2/3 mx-auto">
-            <ContactForm>
+
+            <ContactForm info_company="{{ json_encode($info_company)}}">
                 @csrf
             </ContactForm>
         </div>

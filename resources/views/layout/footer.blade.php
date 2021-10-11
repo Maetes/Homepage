@@ -144,7 +144,7 @@
 {{--        </div>--}}
 {{--    </div>--}}
     <div class="bg-gray-100">
-        <div class="container mx-auto text-gray-900 py-4 px-5 flex flex-col sm:flex-row justify-between items-center sm:flex-row">
+        <div class="container mx-auto text-gray-900 py-4 px-5 flex flex-col sm:flex-row justify-between items-center">
             <p class=" font-basic text-sm text-center sm:text-left">
                 © 2021 MTW IT-Solutions UG (haftungsbeschränkt)
             </p>
