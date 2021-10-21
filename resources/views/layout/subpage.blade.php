@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="de" class="h-full">
+<html lang="de" class="">
 <head>
     @include('layout.head')
 </head>
-<body class="h-full">
+<body class="">
     {{--  div wird für mounten von Vue benötigt, nicht ändern oder entfernen  --}}
-    <div id="app" class="h-full">
+    <div id="app" class="min-h-screen bg-gray-100 font-basic">
         <FixedNavbar ref="fixednavbar"></FixedNavbar>
-        <div id="navbar" class="w-full z-20">
+        <div id="navbar" class="w-full z-20 bg-mtw-primary-lighter">
             <NavbarContent></NavbarContent>
         </div>
         @yield('content')

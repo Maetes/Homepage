@@ -7,9 +7,9 @@
             <MenuComponent @disableNavbar="emitDisableNavbar" ref="menu"></MenuComponent>
             <div  class="hidden h-full relative lg:flex w-3/5 justify-between items-center">
                 <dropdown href="/#services" dropdownText="Services" :linkClass="isNavActive('services')">
-                    <dropdown-link href="/#services">Web- und Appentwicklung</dropdown-link>
-                    <dropdown-link href="/#services">IT-Beratung</dropdown-link>
-                    <dropdown-link href="/#services">ITK-Services</dropdown-link>
+                    <dropdown-link href="/services/web-und-appentwicklung">Web- und Appentwicklung</dropdown-link>
+                    <dropdown-link href="/services/it-beratung">IT-Beratung</dropdown-link>
+                    <dropdown-link href="/services/itk-services">ITK-Services</dropdown-link>
                 </dropdown>
 
                 <a class="relative inline-flex items-center" :class="{'border-b-4 border-mtw-secondary': windowHash==='#portfolio'}" href="/#portfolio">Portfolio</a>
