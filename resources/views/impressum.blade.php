@@ -34,6 +34,10 @@
         <hr>
         <p>Amtsgericht Siegburg
             <br>HRB 16697<br></p>
+        <br><br>
+        <h3>Umsatzsteuer-Identifikationsnummer (USt-IdNr.):</h3>
+        <hr>
+        <p>DE346806402</p>
 
     </div>
 @endsection
