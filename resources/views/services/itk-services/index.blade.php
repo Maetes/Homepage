@@ -1,10 +1,10 @@
 @extends('layout.subpage')
 
 @section('content')
-    <x-hero-with-card title="ITK-Services"
+    <x-hero-with-card title="Informations- und Telekommunikationstechnik"
         mediaLink="/vid/hardware.mp4"
         mediaType="vid" vidType="video/mp4" buttonText="Button unsichtbar wenn kein Text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dicta ullam perspiciatis, repudiandae commodi dolores, rem dolorum fugiat earum enim dolore possimus accusantium alias ab autem tempora explicabo saepe laboriosam?
+        Als technischer Partner stehen wir Ihnen jederzeit kompetent zur Seite. Von der Beratung der zu beschaffenden Infrastruktur bis hin zur Installation und Implementierung in Ihrem Unternehmen übernehmen wir jeden Arbeitsschritt.
     </x-hero-with-card>
 
 

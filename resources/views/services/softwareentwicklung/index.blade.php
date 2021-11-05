@@ -1,16 +1,19 @@
 @extends('layout.subpage')
 
 @section('content')
-    <x-hero-with-card title="Web- und Appentwicklung"
+    <x-hero-with-card title="Softwareentwicklung"
         mediaLink="https://player.vimeo.com/external/173394760.sd.mp4?s=f7c192f6a68de1be330319f7a3959619162f8710&amp;profile_id=164&amp;oauth2_token_id=57447761"
-        mediaType="vid" vidType="video/mp4" buttonText="Zu den Technologien">
-        Wir entwickeln moderne, responsive Websites basierend auf den neusten und zuverlässigsten Technologien.
+        mediaType="vid" vidType="video/mp4" buttonText="Zum Entwicklungsprozess">
+        Wir entwickeln Ihre individuelle Softwarelösung nach Ihren Wünschen.
+        <br>Wir bieten ein breites Kompetenzspektrum, das es uns erlaubt sowohl <span class="font-bold">Webanwendungen</span>, als auch <span class="font-bold">mobile Apps</span> zu entwickeln.
+        <br><br>Die Nutzung fortschrittlicher Technologien und Einhaltung von <span class="font-bold">höchsten Sicherheitsstandards</span> ist dabei eine Selbstverständlichkeit für uns.
+        {{-- Wir entwickeln moderne, responsive Websites basierend auf den neusten und zuverlässigsten Technologien.
         <br>Landingpages als Ihre digitale Visitenkarte, repräsentative Unternehmensportale, Blogs, Onlineshops oder ganz individuelle Softwarelösungen.
-        <br><br>Außerdem bieten wir auch hybride mobile App-Lösungen basierend auf Webtechnologien an, die dadurch sowohl auf iOS, als auch auf Andorid gleichermaßen verfügbar sind.
+        <br><br>Außerdem bieten wir auch hybride mobile App-Lösungen basierend auf Webtechnologien an, die dadurch sowohl auf iOS, als auch auf Andorid gleichermaßen verfügbar sind. --}}
     </x-hero-with-card>
 
     <div class="w-full h-32 bg-mtw-primary"></div>
-    <div class="container mx-auto transform -translate-y-20 grid grid-cols-1 px-6 sm:px-20 md:px-0 md:grid-cols-3 gap-4 lg:gap-0">
+    <div class="container mx-auto transform -translate-y-20 grid grid-cols-1 px-6 sm:px-20 md:px-6 md:grid-cols-2 xl:grid-cols-4 gap-4 md:gap-8">
         <x-card>
             <x-slot name="title">Website Erstellung</x-slot>
             Wer sich im Internet präsentieren und auch gefunden werden möchte benötigt eine moderne, repräsentative und
@@ -19,7 +22,7 @@
             <p class="font-medium pt-1">Wir erstellen die individuelle Website, die Sie sich wünschen.</p>
         </x-card>
         <x-card>
-            <x-slot name="title">CMS-Systeme</x-slot>
+            <x-slot name="title">Content Management-Systeme</x-slot>
             Für größere Portale, Blogs oder Websites mit vielen Inhalten empfehlen wir <abbr
                 title="Content Management Systeme">CMS-Systeme</abbr>, die es Ihnen ermöglichen Ihre Inhalte ohne großes technisches Hintergrundwissen selbst zu
             verwalten und zu generieren.
@@ -28,14 +31,19 @@
                 entwickelte Lösungen</span> zum Content Management.
         </x-card>
         <x-card>
+            <x-slot name="title">Shopsysteme</x-slot>
+            Wer Produkte verkaufen möchte kommt heute am E-Commerce kaum noch vorbei. Der Handel verlagert sich immer stärker ins Online-Geschäft.
+            <br>Hier möchten wir unseren Beitrag leisten Sie dabei zu unterstützen Ihren modernen Onlineshop aufzubauen.
+        </x-card>
+        <x-card>
             <x-slot name="title">Individuelle Softwarelösungen</x-slot>
             Sie haben besondere Anwendungsfälle oder eine besondere Idee, die nicht in das Standardkorsett von anderen
             Lösungen passt ? Kein Problem !
-            <br><br>Auch hier sind wir bestens aufgestellt um Sie zu beraten und Ihre maßgeschneiderte Lösung zu entwickeln.
+            <br><br>Auch hier sind wir in modernsten Technologien fachlich bestens aufgestellt um Sie zu beraten und Ihre maßgeschneiderte Lösung zu entwickeln.
         </x-card>
     </div>
 
-    <section class="text-gray-600 body-font py-10">
+    <section id="Zum Entwicklungsprozess" class="text-gray-600 body-font py-10">
         <div class="mx-auto  ">
             <h1 class="font-bold text-3xl lg:text-5xl text-mtw-text text-center">Unser Entwicklungsprozess</h1>
             <h3 class="text-xl text-center pt-3">In 6 Schritten mit uns zu Ihrem erfolgreichen digitalen Produkt</h3>

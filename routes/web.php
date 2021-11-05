@@ -46,7 +46,7 @@ Route::post('/email', function (\Illuminate\Http\Request $request) {
 
 Route::prefix('services')->group(function(){
     // Route::get('/',[TeamController::class,'index']);
-    Route::get('web-und-appentwicklung',[ServicesController::class,'webEntwicklung'])->name('services.webentwicklung');
+    Route::get('softwareentwicklung',[ServicesController::class,'softwareentwicklung'])->name('services.softwareentwicklung');
     Route::get('it-beratung',[ServicesController::class,'itBeratung'])->name('services.it-beratung');
     Route::get('itk-services',[ServicesController::class,'itkServices'])->name('services.itk-services');
 });

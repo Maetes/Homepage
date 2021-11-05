@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 
 class ServicesController extends Controller
 {
-    public function webEntwicklung()
+    public function softwareentwicklung()
     {
-        return view('services.web-und-appentwicklung.index');
+        return view('services.softwareentwicklung.index');
     }
 
     public function itBeratung()
