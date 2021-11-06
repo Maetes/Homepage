@@ -3,13 +3,13 @@
         <div class="container mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-0">
                 <div class="flex flex-col justify-between 2xl:justify-evenly px-4">
-                    <h1 class="font-bold text-3xl lg:text-5xl text-mtw-text break-words">{{ $title }}</h1>
+                    <h1 class="font-bold text-3xl md:text-3xl xl:text-4xl 2xl:text-5xl text-mtw-text break-words">{{ $title }}</h1>
                     <p class="text-gray-600 text-lg pt-4 2xl:pt-0">
                         {{ $slot }}
                     </p>
                 </div>
                 @if ($buttonText !== "")
-                <div class="block md:hidden py-5 px-4">
+                <div class="block md:hidden py-5 px-4 mb-8">
                     <a href="#{{ $buttonText }}" class="px-3 py-2 text-sm rounded-lg bg-mtw-primary text-mtw-secondary font-semibold">{{ $buttonText }}</a>
                 </div>
                 @endif

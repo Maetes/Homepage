@@ -2,7 +2,7 @@
 
 @section('content')
     <x-hero-with-card title="Softwareentwicklung"
-        mediaLink="https://player.vimeo.com/external/173394760.sd.mp4?s=f7c192f6a68de1be330319f7a3959619162f8710&amp;profile_id=164&amp;oauth2_token_id=57447761"
+        mediaLink="{{ asset('/vid/Notebook.mp4') }}"
         mediaType="vid" vidType="video/mp4" buttonText="Zum Entwicklungsprozess">
         Wir entwickeln Ihre individuelle Softwarelösung nach Ihren Wünschen.
         <br>Wir bieten ein breites Kompetenzspektrum, das es uns erlaubt sowohl <span class="font-bold">Webanwendungen</span>, als auch <span class="font-bold">mobile Apps</span> zu entwickeln.
@@ -174,16 +174,6 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="bg-white  py-10">
-        <div class="flex flex-col items-center justify-center ">
-            <p class="text-lg text-mtw-text">Konnten wir Sie von uns überzeugen ?</p>
-            <p class="text-3xl font-bold pb-10">Dann nehmen Sie jetzt gerne Kontakt mit uns.</p>
-            <a class="px-5 py-3 bg-mtw-primary text-mtw-secondary rounded-xl text-2xl font-semibold hover:bg-mtw-darkgrey transform hover:scale-95" href="/#kontakt">Jetzt kontaktieren</a>
-
-        </div>
-
     </section>
 
 @endsection
