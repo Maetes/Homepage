@@ -1,8 +1,9 @@
 <?php
 
-use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TeamController;
+use App\Http\Controllers\ServicesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,6 +43,13 @@ Route::post('/email', function (\Illuminate\Http\Request $request) {
 
 //    return route('home');
 })->name('email');
+
+Route::prefix('services')->group(function(){
+    // Route::get('/',[TeamController::class,'index']);
+    Route::get('softwareentwicklung',[ServicesController::class,'softwareentwicklung'])->name('services.softwareentwicklung');
+    Route::get('it-beratung',[ServicesController::class,'itBeratung'])->name('services.it-beratung');
+    Route::get('itk-services',[ServicesController::class,'itkServices'])->name('services.itk-services');
+});
 
 
 Route::prefix('team')->group(function(){

@@ -26,8 +26,8 @@
 <meta name="theme-color" content="#005a80">
 
 
-<script src="{{asset('/js/app.js')}}"></script>
-<script src="{{asset('/js/manifest.js')}}"></script>
-<script src="{{asset('/js/vendor.js')}}"></script>
-<script src="{{asset('/js/app_defer.js')}}" defer></script>
-<link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<script src="{{asset(mix(('/js/app.js')))}}"></script>
+<script src="{{asset(mix(('/js/manifest.js')))}}"></script>
+<script src="{{asset(mix(('/js/vendor.js')))}}"></script>
+<script src="{{asset(mix(('/js/app_defer.js')))}}" defer></script>
+<link href="{{ asset(mix(('css/app.css'))) }}" rel="stylesheet">

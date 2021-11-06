@@ -38,6 +38,8 @@ module.exports = {
     variants: {
         extend: {
             display: ['group-hover'],
+            scale: ['group-hover'],
+            translate: ['group-hover'],
         },
     },
     plugins: [],
