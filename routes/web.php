@@ -48,7 +48,7 @@ Route::prefix('services')->group(function(){
     // Route::get('/',[TeamController::class,'index']);
     Route::get('softwareentwicklung',[ServicesController::class,'softwareentwicklung'])->name('services.softwareentwicklung');
     Route::get('it-beratung',[ServicesController::class,'itBeratung'])->name('services.it-beratung');
-    Route::get('informations- und kommuniokationstechnik',[ServicesController::class,'itkServices'])->name('services.itk-services');
+    Route::get('informations-und-telekommunikationstechnik',[ServicesController::class,'itkServices'])->name('services.itk-services');
 });
 
 

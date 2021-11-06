@@ -11,7 +11,7 @@
                 <dropdown href="/#services" dropdownText="Services" :linkClass="isNavActive('services')">
                     <dropdown-link href="/services/softwareentwicklung">Softwareentwicklung</dropdown-link>
                     <dropdown-link href="/services/it-beratung">IT-Beratung</dropdown-link>
-                    <dropdown-link href="/services/itk-services">Informations- und Telekommunikationstechnik</dropdown-link>
+                    <dropdown-link href="/services/informations-und-telekommunikationstechnik">Informations- und Telekommunikationstechnik</dropdown-link>
                 </dropdown>
 
                 <a class="relative inline-flex items-center" :class="{'border-b-4 border-mtw-secondary': windowHash==='#portfolio'}" href="/#portfolio">Portfolio</a>
