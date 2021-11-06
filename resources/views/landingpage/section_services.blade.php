@@ -19,9 +19,9 @@
                     </svg>
                 </div>
                 <div class="flex-grow">
-                    <h2 class="text-gray-900 text-lg font-title font-bold mb-3">Web- und App-Entwicklung</h2>
+                    <h2 class="text-gray-900 text-lg font-title font-bold mb-3">Softwareentwicklung</h2>
                     <p class="leading-relaxed text-base font-basic flex-grow">Wir entwickeln die Website oder App, die Sie sich wünschen: Landingpages, Unternehmensportale, CMS-Systeme oder auch völlig individuelle Softwarelösungen. Einen Auszug unserer verwendeten Technologien finden Sie im Portfolio.</p>
-                    <a class="mt-3 text-mtw-primary inline-flex items-center font-basic" href="#portfolio">Hier erfahren Sie mehr
+                    <a class="mt-3 text-mtw-primary inline-flex items-center font-basic" href="{{ route('services.softwareentwicklung') }}">Hier erfahren Sie mehr
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
@@ -37,7 +37,7 @@
                 <div class="flex-grow">
                     <h2 class="text-gray-900 text-lg font-title font-bold mb-3">IT-Beratung</h2>
                     <p class="leading-relaxed text-base font-basic">Sie sind sich unsicher in digitalen Fragen oder haben sogar konkrete Vorstellungen, wissen aber nicht, wie Sie es umsetzen sollen? Sie benötigen Hilfe oder einen Partner in digitalen Fragen für sich oder Ihr Unternehmen?</p>
-                    <a class="mt-3 text-mtw-primary inline-flex items-center font-basic" href="#kontakt">Wir beraten Sie gerne
+                    <a class="mt-3 text-mtw-primary inline-flex items-center font-basic" href="{{ route('services.it-beratung') }}">Wir beraten Sie gerne
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
@@ -52,9 +52,9 @@
                     </svg>
                 </div>
                 <div class="flex-grow">
-                    <h2 class="text-gray-900 text-lg font-title font-bold mb-3">ITK-Services</h2>
+                    <h2 class="text-gray-900 text-lg font-title font-bold mb-3">Informations- und Kommunikationstechnik</h2>
                     <p class="leading-relaxed font-basic text-base">Sie benötigen technische Ausstattung oder Hilfe bei der Installation und Beschaffung? Sowohl bei der benötigten Soft- und Hardware helfen wir Ihnen gerne analog oder digital Fuß zu fassen und solide Lösungen für Sie oder Ihr Unternehmen zu finden und zu installieren.</p>
-                    <a class="mt-3 text-mtw-primary inline-flex items-center font-basic" href="#kontakt">Wir beraten Sie gerne
+                    <a class="mt-3 text-mtw-primary inline-flex items-center font-basic" href="{{ route('services.itk-services') }}">Wir beraten Sie gerne
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>

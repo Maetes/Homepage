@@ -1,7 +1,7 @@
 <template>
     <div>
         <div id="typed-strings">
-            <p>Web- und Appentwicklung <br> ^2000 IT-Beratung <br> ^2000 ITK-Services</p>
+            <p>Softwareentwicklung <br> ^2000 IT-Beratung <br> ^2000 Informations- und Kommunikationstechnik</p>
         </div>
         <div class="text-base sm:pt-8 md:pt-0 sm:text-lg lg:text-xl font-medium font-basic">
             <span class="" id="typed"></span>

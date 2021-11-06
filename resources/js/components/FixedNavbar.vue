@@ -1,7 +1,7 @@
 <template>
     <div>
         <transition name="swing">
-            <div v-if="showFixedNavbar" class="fixed w-full bg-mtw-primary-lighter text-mtw-textshadow-lg z-40">
+            <div v-if="showFixedNavbar" class="hidden fixed sm:block w-full bg-mtw-primary-lighter text-mtw-textshadow-lg z-40">
                 <NavbarContent @disableNavbar="toggleDisable" ref="navbarcontent" :show-fixed-navbar="showFixedNavbar"></NavbarContent>
             </div>
         </transition>

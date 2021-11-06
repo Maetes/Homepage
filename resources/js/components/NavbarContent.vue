@@ -4,7 +4,9 @@
             <a href="/">
                 <img src="/img/logos/mtw.png" style="width: 100px;" alt="Logo">
             </a>
-            <MenuComponent @disableNavbar="emitDisableNavbar" ref="menu"></MenuComponent>
+            <div class="hidden md:block lg:hidden">
+                <MenuComponent @disableNavbar="emitDisableNavbar" ref="menu"></MenuComponent>
+            </div>
             <div  class="hidden h-full relative lg:flex w-3/5 justify-between items-center">
                 <dropdown href="/#services" dropdownText="Services" :linkClass="isNavActive('services')">
                     <dropdown-link href="/services/softwareentwicklung">Softwareentwicklung</dropdown-link>
