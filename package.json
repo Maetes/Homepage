@@ -21,6 +21,7 @@
         "workbox-webpack-plugin": "^6.3.0"
     },
     "dependencies": {
+        "parallax-js": "^3.1.0",
         "swiper": "^7.0.3",
         "typed.js": "^2.0.12",
         "vue": "^3.2.8",

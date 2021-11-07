@@ -1,13 +1,14 @@
 <section class="text-gray-700 body-font bg-gray-100">
     <div id="portfolio" class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
-            <h2 class="sm:text-3xl text-2xl font-semibold font-title text-mtw-text mb-4">Portfolio</h2>
+            <h2 class="sm:text-3xl text-2xl font-semibold font-title text-mtw-text mb-4">Unser Technologie-Portfolio</h2>
             <div class="flex mt-6 justify-center">
                 <div class="w-16 h-1 rounded-full bg-mtw-primary inline-flex"></div>
             </div>
         </div>
+        {{-- <logocontainer></logocontainer> --}}
 
-        <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:translate-x-5 ease-out duration-300">
+        <a href="https://wordpress.com" target="_blank" class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:translate-x-5 ease-out duration-300">
             <div class="sm:w-56 sm:h-32 h-20 w-56 sm:mr-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
                 <img width="230" height="77" src="{{asset('./img/logos/wordpress.svg')}}" alt="Wordpress Logo">
             </div>
@@ -27,10 +28,10 @@
                 </a>
                 --}}
             </div>
-        </div>
+        </a>
 
 
-        <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:-translate-x-5 ease-out duration-300">
+        <a href="https://typo3.org" target="_blank" class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:-translate-x-5 ease-out duration-300">
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0 ">
                 <h3 class="text-gray-900 text-lg font-title font-semibold mb-2">Typo3</h3>
                 <p class="leading-relaxed text-base font-basic">
@@ -53,10 +54,10 @@
             <div class="sm:w-56 sm:order-none order-first sm:h-32 h-20 w-56 sm:ml-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
                 <img width="230" height="77" src="{{asset('./img/logos/typo3.svg')}}" alt="Typo3 Logo">
             </div>
-        </div>
+        </a>
 
 
-        <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:translate-x-5 ease-out duration-300">
+        <a href="https://www.shopware.com/" target="_blank" class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:translate-x-5 ease-out duration-300">
             <div class="sm:w-56 sm:h-32 h-20 w-56 sm:mr-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
                 <img width="230" height="77" src="{{asset('./img/logos/shopware.svg')}}" alt="Shopware Logo">
             </div>
@@ -75,9 +76,9 @@
                 </a>
                 --}}
             </div>
-        </div>
+        </a>
 
-        <div class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:-translate-x-5 ease-out duration-300">
+        <a href="https://laravel.com/" class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:-translate-x-5 ease-out duration-300">
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0 ">
                 <h3 class="text-gray-900 text-lg font-title font-semibold mb-2">Laravel</h3>
                 <p class="leading-relaxed text-base font-basic">
@@ -97,7 +98,50 @@
             <div class="sm:w-56 sm:order-none order-first sm:h-32 h-20 w-56 sm:ml-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
                 <img width="230" height="77" src="{{asset('./img/logos/laravel.svg')}}" alt="Laravel Logo">
             </div>
-        </div>
+        </a>
+
+        {{-- <a href="https://www.shopware.com/" target="_blank" class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:translate-x-5 ease-out duration-300">
+            <div class="sm:w-56 sm:h-32 h-20 w-56 sm:mr-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                <img width="230" height="77" src="{{asset('./img/logos/shopware.svg')}}" alt="Shopware Logo">
+            </div>
+            <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                <h3 class="text-gray-900 text-lg font-title font-semibold mb-2">Vue.js</h3>
+                <p class="leading-relaxed text-base font-basic">
+                    Shopware ist die ideale Wahl für alle Unternehmen, die einen kundenorientierten und erfolgreichen Onlineshop betreiben möchten.
+                    Durch die einfache und intuitive zu bedienende Backend-Oberfläche sind Shop-Betreiber in der Lage, im laufenden Betrieb viele
+                    Änderungen an Website und Shop selbständig vorzunehmen.
+                </p>
+            </div>
+        </a>
+
+        <a href="https://laravel.com/" class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:-translate-x-5 ease-out duration-300">
+            <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0 ">
+                <h3 class="text-gray-900 text-lg font-title font-semibold mb-2">React</h3>
+                <p class="leading-relaxed text-base font-basic">
+                    Laravel ist ein plattformübergreifendes PHP-Framework für die Entwicklung von Webanwendungen.
+                    Laravel-Anwendungen sind hoch skalierbar und haben eine einfach zu wartende Codebasis.
+                    Dank des modularen Paketsystems und des robusten Abhängigkeitsmanagements von Laravel
+                    können Entwickler ihre Anwendungen nahtlos um weitere Funktionen erweitern.
+                </p>
+            </div>
+            <div class="sm:w-56 sm:order-none order-first sm:h-32 h-20 w-56 sm:ml-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                <img width="230" height="77" src="{{asset('./img/logos/laravel.svg')}}" alt="Laravel Logo">
+            </div>
+        </a>
+
+        <a href="https://www.shopware.com/" target="_blank" class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:translate-x-5 ease-out duration-300">
+            <div class="sm:w-56 sm:h-32 h-20 w-56 sm:mr-10 inline-flex items-center justify-center rounded-full flex-shrink-0">
+                <img width="230" height="77" src="{{asset('./img/logos/shopware.svg')}}" alt="Shopware Logo">
+            </div>
+            <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                <h3 class="text-gray-900 text-lg font-title font-semibold mb-2">Node.js</h3>
+                <p class="leading-relaxed text-base font-basic">
+                    Shopware ist die ideale Wahl für alle Unternehmen, die einen kundenorientierten und erfolgreichen Onlineshop betreiben möchten.
+                    Durch die einfache und intuitive zu bedienende Backend-Oberfläche sind Shop-Betreiber in der Lage, im laufenden Betrieb viele
+                    Änderungen an Website und Shop selbständig vorzunehmen.
+                </p>
+            </div>
+        </a> --}}
 
     </div>
 </section>

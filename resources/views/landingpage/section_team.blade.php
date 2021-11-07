@@ -19,7 +19,7 @@
                         <a href="{{ route('team.martin') }}">
                             <h3 class="title-font font-medium text-lg text-gray-900">Martin Müller</h3>
                         </a>
-                        <h4 class="text-gray-500 mb-3">Co-Founder & <abbr title="Chief Financial Officer">CFO</abbr></h4>
+                        <h4 class="text-gray-500 mb-3">Geschäftsführer</h4>
                         <span class="inline-flex">
 
                                         {{--<a class="text-gray-500">
@@ -51,7 +51,7 @@
                         <a href="{{ route('team.tim') }}">
                             <h3 class="title-font font-medium text-lg text-gray-900">Tim Tomczak</h3>
                         </a>
-                        <h4 class="text-gray-500 mb-3">Co-Founder & <abbr title="Chief Operating Officer">COO</abbr></h4>
+                        <h4 class="text-gray-500 mb-3">Geschäftsführer</h4>
                         <span class="inline-flex">
 
                             {{-- <a class="text-gray-500">
@@ -82,7 +82,7 @@
                         <a href="{{ route('team.sven') }}">
                             <h3 class="title-font font-medium text-lg text-gray-900">Sven Walbröl</h3>
                         </a>
-                        <h4 class="text-gray-500 mb-3">Co-Founder & <abbr title="Chief Technology Officer">CTO</abbr></h4>
+                        <h4 class="text-gray-500 mb-3">Geschäftsführer</h4>
                         <span class="inline-flex">
 
                             {{-- <a class="text-gray-500">

@@ -12,19 +12,19 @@
             }'
         >
         <swiper-slide>
-            <img src="/img/customer_logos/logoipsum-logo-4.svg" alt="">
+            <img class="h-12 filter saturate-0 grayscale contrast-200 invert" src="/img/logos/logo_uni-bonn.webp" alt="Logo Universität Bonn">
         </swiper-slide>
 
         <swiper-slide>
-            <img src="/img/customer_logos/logoipsum-logo-6.svg" alt="">
+            <img class="h-12 filter saturate-0 grayscale contrast-200 invert" src="/img/logos/bonnsmile.webp" alt="Logo Bonn Smile Zahnarzt">
         </swiper-slide>
 
         <swiper-slide>
-            <img src="/img/customer_logos/logoipsum-logo-8.svg" alt="">
+            <img class="h-12 filter saturate-0 grayscale contrast-200" src="/img/logos/mundsbau.webp" alt="Logo M&S Bau GmbH">
         </swiper-slide>
 
         <swiper-slide>
-            <img src="/img/customer_logos/logoipsum-logo-11.svg" alt="">
+            <img class="h-12 filter saturate-0 grayscale contrast-200" src="/img/logos/logo_mema.webp" alt="Logo mema smarthome">
         </swiper-slide>
 
     </swiper>

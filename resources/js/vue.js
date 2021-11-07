@@ -10,6 +10,7 @@ import Dropdown from "./components/Dropdown";
 import DropdownLink from "./components/DropdownLink";
 import MobileMenu from "./components/MobileMenu";
 import Contact from "./components/Contact";
+import LogoContainer from "./components/LogoContainer";
 // import FloatingContactForm from "./components/FloatingContactForm";
 
 const app = createApp({})
@@ -25,5 +26,6 @@ const app = createApp({})
     .component('dropdownlink',DropdownLink)
     .component('mobilemenu',MobileMenu)
     .component('contact',Contact)
+    .component('logocontainer',LogoContainer)
     // .component('floatingcontactform',FloatingContactForm)
     .mount('#app');
