@@ -52,7 +52,7 @@
                     </svg>
                 </div>
                 <div class="flex-grow">
-                    <h2 class="text-gray-900 text-lg font-title font-bold mb-3">Informations- und Kommunikationstechnik</h2>
+                    <h2 class="text-gray-900 text-lg font-title font-bold mb-3">Informations- und Telekommunikationstechnik</h2>
                     <p class="leading-relaxed font-basic text-base">Sie benötigen technische Ausstattung oder Hilfe bei der Installation und Beschaffung? Sowohl bei der benötigten Soft- und Hardware helfen wir Ihnen gerne analog oder digital Fuß zu fassen und solide Lösungen für Sie oder Ihr Unternehmen zu finden und zu installieren.</p>
                     <a class="mt-3 text-mtw-primary inline-flex items-center font-basic" href="{{ route('services.itk-services') }}">Wir beraten Sie gerne
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
