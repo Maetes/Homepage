@@ -6,6 +6,7 @@
     @include('landingpage.section_top')
     @include('landingpage.section_services')
     @include('landingpage.section_portfolio')
+    @include('landingpage.section_referenzen')
     @include('landingpage.section_team')
     @include('landingpage.section_contact')
 {{--    @include('landingpage.section_services-two')--}}

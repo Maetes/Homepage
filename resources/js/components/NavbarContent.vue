@@ -16,14 +16,19 @@
 
                 <a class="relative inline-flex items-center" :class="{'border-b-4 border-mtw-secondary': windowHash==='#portfolio'}" href="/#portfolio">Portfolio</a>
 
+                <a class="relative inline-flex items-center" :class="{'border-b-4 border-mtw-secondary': windowHash==='#referenzen'}" href="/#referenzen">Referenzen</a>
+
                 <dropdown href="/#team" dropdownText="Über uns" :linkClass="isNavActive('team')">
                     <dropdown-link href="/team/martinmüller">Martin Müller</dropdown-link>
                     <dropdown-link href="/team/timtomczak">Tim Tomczak</dropdown-link>
                     <dropdown-link href="/team/svenwalbröl">Sven Walbröl</dropdown-link>
                 </dropdown>
 
-                <a class="relative inline-flex items-center" :class="{'border-b-4 border-mtw-secondary': windowHash==='#kontakt'}" href="/#kontakt">Kontakt</a>
                 <div>
+                    <a href="/#kontakt" class="rounded-xl shadow-md px-4 py-2 inline-flex text-mtw-secondary items-center text-lg" :class="[showFixedNavbar ? 'bg-mtw-text ' : 'bg-mtw-primary ']" >Kontakt</a>
+                </div>
+                <!-- <a class="relative inline-flex items-center" :class="{'border-b-4 border-mtw-secondary': windowHash==='#kontakt'}" href="/#kontakt">Kontakt</a> -->
+                <!-- <div>
                     <a href="/kundencenter" class="rounded-xl shadow-md px-4 py-2 inline-flex text-mtw-secondary items-center" :class="[showFixedNavbar ? 'bg-mtw-text ' : 'bg-mtw-primary ']">
                         <span class="pr-2">Kundencenter</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
@@ -31,7 +36,7 @@
                             <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
                         </svg>
                     </a>
-                </div>
+                </div> -->
             </div>
 
         </div>

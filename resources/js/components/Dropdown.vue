@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="relative inline-block group border-b-2 border-opacity-0 transform hover:border-opacity-100 hover:border-mtw-primary-lighter hover:text-gray-700" :class="class">
+        <div class="relative inline-block group border-b-2 border-opacity-0 transform hover:border-opacity-100 hover:border-mtw-primary-lighter hover:text-gray-700 z-20" :class="class">
             <a class="flex items-center" :href="href" :aria-label="dropdownText" :class="linkClass">
                 <span v-text="dropdownText"></span>
                 <span v-if="$slots.default">
