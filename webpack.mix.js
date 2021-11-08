@@ -1,5 +1,5 @@
 const mix = require('laravel-mix');
-
+const path = require('path');
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -14,6 +14,9 @@ const mix = require('laravel-mix');
 mix.js('resources/js/app.js', 'public/js').extract()
     .js('resources/js/app_defer.js','public/js').extract()
     .js('resources/js/parallax.js','public/js').extract()
+    .alias({
+        ziggy: path.resolve('vendor/tightenco/ziggy/dist/vue'), // or 'vendor/tightenco/ziggy/dist/vue' if you're using the Vue plugin
+    })
     .vue()
     .postCss('resources/css/app.css', 'public/css', [
         require("tailwindcss"),
@@ -24,6 +27,11 @@ if (mix.inProduction()) {
     const workboxPlugin = require('workbox-webpack-plugin');
 
     mix.webpackConfig({
+        resolve: {
+            alias: {
+                ziggy: path.resolve('vendor/tightenco/ziggy/dist/vue'),
+            },
+        },
         plugins: [
             // new workboxPlugin.GenerateSW({
             //     maximumFileSizeToCacheInBytes: '10000000'

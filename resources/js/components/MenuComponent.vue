@@ -29,9 +29,12 @@
                     </div>
                     <div  class="mx-auto px-5 sm:px-24 py-20">
                         <div class="flex flex-col items-center space-y-10 font-basic text-xl">
-                            <a @click="toggleMenu" class="transform hover:scale-105 " href="/#services">Services</a>
-                            <a @click="toggleMenu" class="" href="/#portfolio">Portfolio</a>
-                            <a @click="toggleMenu" class="" href="/#team">Über uns</a>
+                            <a @click="toggleMenu" class="transform hover:translate-x-1 " :href="route('home')+'#services'">Services</a>
+                            <a @click="toggleMenu" class="transform hover:translate-x-1 " :href="route('services.softwareentwicklung')">softwareentwicklung</a>
+                            <a @click="toggleMenu" class="transform hover:translate-x-1 " :href="route('services.it-beratung')">it-beratung</a>
+                            <a @click="toggleMenu" class="transform hover:translate-x-1 " :href="route('services.itk-services')">itk-services</a>
+                            <a @click="toggleMenu" class="transform hover:translate-x-1 " :href="route('home')+'#portfolio'">Portfolio</a>
+                            <a @click="toggleMenu" class="transform hover:translate-x-1 " :href="route('home')+'#team'">Über uns</a>
                             <!-- <a @click="toggleMenu" href="/kundencenter" class="rounded-xl shadow-md bg-mtw-primary px-4 py-2 flex inline-flex text-mtw-secondary items-center">
                                 <span class="pr-2">Kundencenter</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
@@ -39,7 +42,7 @@
                                     <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
                                 </svg>
                             </a> -->
-                            <a @click="toggleMenu" href="/#kontakt" class="rounded-xl shadow-md bg-mtw-primary px-4 py-2 flex inline-flex text-mtw-secondary items-center">
+                            <a @click="toggleMenu" :href="route('home')+'#kontakt'" class="rounded-xl shadow-md bg-mtw-primary px-4 py-2 flex inline-flex text-mtw-secondary items-center">
                                 <span>Kontakt</span>
                             </a>
                         </div>

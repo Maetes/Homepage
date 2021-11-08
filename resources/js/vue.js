@@ -1,4 +1,6 @@
 import { createApp } from 'vue';
+import { ZiggyVue } from 'ziggy';
+import { Ziggy } from './ziggy';
 import CustomerLogoSlider from "./components/CustomerLogoSlider";
 import FixedNavbar from "./components/FixedNavbar";
 import MenuComponent from "./components/MenuComponent";
@@ -14,6 +16,7 @@ import LogoContainer from "./components/LogoContainer";
 // import FloatingContactForm from "./components/FloatingContactForm";
 
 const app = createApp({})
+    .use(ZiggyVue, Ziggy)
     // .component('',)#
     .component('fixednavbar',FixedNavbar)
     .component('menucomponent',MenuComponent)

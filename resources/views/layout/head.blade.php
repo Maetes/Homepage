@@ -25,6 +25,7 @@
 <meta name="msapplication-TileImage" content="/img/logos/favicons/ms-icon-144x144.png">
 <meta name="theme-color" content="#005a80">
 
+@routes
 
 <script src="{{asset(mix(('/js/app.js')))}}"></script>
 <script src="{{asset(mix(('/js/manifest.js')))}}"></script>
