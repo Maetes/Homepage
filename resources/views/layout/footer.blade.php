@@ -155,5 +155,17 @@
 {{--            <div class="ml-auto text-sm text-gray-400">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>--}}
 
         </div>
+        {{-- <div class="container flex">
+            <div class="text-xs">
+                <p>Uns findet man häufig über folgende Suchbegriffe:</p>
+                @foreach (config('data.servicesSoftwareentwicklung') as $service)
+                    <a href="{{ route('services.genericService',$service) }}">{{ $service }}</a>
+                    @foreach (config('data.orte') as $ort)
+                        <a href="{{ route('services.genericService',$service,$ort) }}">{{ $service }} in {{ $ort }}</a>
+                    @endforeach
+                @endforeach
+            </div>
+        </div> --}}
+
     </div>
 </footer>

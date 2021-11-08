@@ -46,10 +46,13 @@ Route::post('/email', function (\Illuminate\Http\Request $request) {
 
 Route::prefix('services')->group(function(){
     // Route::get('/',[TeamController::class,'index']);
-    Route::get('softwareentwicklung',[ServicesController::class,'softwareentwicklung'])->name('services.softwareentwicklung');
-    Route::get('it-beratung',[ServicesController::class,'itBeratung'])->name('services.it-beratung');
-    Route::get('informations-und-telekommunikationstechnik',[ServicesController::class,'itkServices'])->name('services.itk-services');
+    Route::get('softwareentwicklung/{ort?}',[ServicesController::class,'softwareentwicklung'])->where('ort','[A-Za-zäöüÄÖÜß]+')->name('services.softwareentwicklung');
+    Route::get('it-beratung/{ort?}',[ServicesController::class,'itBeratung'])->where('ort','[A-Za-zäöüÄÖÜß]+')->name('services.it-beratung');
+    Route::get('informations-und-telekommunikationstechnik/{ort?}',[ServicesController::class,'itkServices'])->where('ort','[A-Za-zäöüÄÖÜß]+')->name('services.itk-services');
+    Route::get('{service}/{ort?}',[ServicesController::class,'genericService'])->where('ort','[A-Za-zäöüÄÖÜß]+')->where('service','[A-Za-zäöüÄÖÜß]+')->name('services.genericService');
 });
+
+// \Spatie\Sitemap\SitemapGenerator::create('http://localhost:8000')->writeToFile(public_path('sitemap.xml'));
 
 
 Route::prefix('team')->group(function(){
