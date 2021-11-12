@@ -22,6 +22,13 @@ mix.js('resources/js/app.js', 'public/js').extract()
         require("tailwindcss"),
     ])
     .version();
+mix.webpackConfig({
+    resolve: {
+        alias: {
+            ziggy: path.resolve('vendor/tightenco/ziggy/dist/vue'),
+        },
+    },
+});
 
 if (mix.inProduction()) {
     const workboxPlugin = require('workbox-webpack-plugin');

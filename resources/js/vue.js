@@ -13,6 +13,7 @@ import DropdownLink from "./components/DropdownLink";
 import MobileMenu from "./components/MobileMenu";
 import Contact from "./components/Contact";
 import LogoContainer from "./components/LogoContainer";
+import LazyLoad from "./components/LazyLoad";
 // import FloatingContactForm from "./components/FloatingContactForm";
 
 const app = createApp({})
@@ -30,5 +31,6 @@ const app = createApp({})
     .component('mobilemenu',MobileMenu)
     .component('contact',Contact)
     .component('logocontainer',LogoContainer)
+    .component('lazyload',LazyLoad)
     // .component('floatingcontactform',FloatingContactForm)
     .mount('#app');

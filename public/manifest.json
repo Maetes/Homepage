@@ -70,14 +70,14 @@
     ],
     "screenshots" : [
         {
-            "src": "/img/screenshots/landing.png",
+            "src": "/img/screenshots/landing.webp",
             "sizes": "720x1280",
-            "type": "image/png"
+            "type": "image/webp"
         },
         {
-            "src": "/img/screenshots/kontakt.png",
+            "src": "/img/screenshots/kontakt.webp",
             "sizes": "720x1280",
-            "type": "image/png"
+            "type": "image/webp"
         }
     ]
 }

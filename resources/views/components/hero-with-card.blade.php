@@ -23,6 +23,7 @@
                         <img class="h-full rounded-xl transform rotate-3 translate-x-1 z-10 object-cover" src="{{ $mediaLink }}" alt="coding bild">
                         {{-- <img class="h-full rounded-xl transform rotate-3 translate-x-1 z-10 object-cover" src="https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="coding bild"> --}}
                     @elseif($mediaType==='vid')
+                        {{-- <lazyload tagtype='video' classes="h-full w-full rounded-xl transform rotate-3 translate-x-1 z-10 object-cover" poster='/img/camera-video-off.svg' playsinline autoplay='' muted='' loop='' preload='auto' src='{{ $mediaLink }}' type='{{ $vidType }}'></lazyload> --}}
                         <video class="h-full rounded-xl transform rotate-3 translate-x-1 z-10 object-cover" muted loop preload="auto" autoplay>
                             <source src="{{ $mediaLink }}" type="{{ $vidType }}">
                         </video>

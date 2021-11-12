@@ -34,6 +34,7 @@
                 </div> --}}
             </div>
             <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+                {{-- <lazyload tagtype="img" classes="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" loading='lazy' src="{{ asset('/img/customer_center.webp') }}" alt="Bild Aufgeklappter Laptop auf Tisch"></lazyload> --}}
                 <img class="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" src="{{ asset('/img/customer_center.webp') }}" alt="stats">
             </div>
         </div>
@@ -51,7 +52,8 @@
                 </div>
             </div>
             <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mb-6 sm:my-0">
-                <img class="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" src="{{ asset('/img/network.jpg') }}" alt="stats">
+                {{-- <lazyload tagtype="img" classes="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" loading='lazy' src="{{ asset('/img/network.webp') }}" alt="Bild Netzwerkkabel and Switch"></lazyload> --}}
+                <img class="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" src="{{ asset('/img/network.webp') }}" alt="stats">
             </div>
             <div class="hidden sm:flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pl-10">
                 <div class="w-full sm:p-4 px-4 mb-6">
@@ -75,7 +77,8 @@
                 </div>
             </div>
             <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-                <img class="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" src="{{ asset('/img/cloud.jpg') }}" alt="stats">
+                {{-- <lazyload tagtype="img" classes="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" loading='lazy' src="{{ asset('/img/cloud.webp') }}" alt="Bild Aneinandergereite Festplatten"></lazyload> --}}
+                <img class="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" src="{{ asset('/img/cloud.webp') }}" alt="stats">
             </div>
         </div>
       </section>
@@ -90,7 +93,8 @@
                 </div>
             </div>
             <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mb-6 sm:my-0">
-                <img class="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" src="{{ asset('/img/server_network.jpg') }}" alt="stats">
+                {{-- <lazyload tagtype="img" classes="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" loading='lazy' src="{{ asset('/img/server_network.webp') }}" alt="Bild Netzwerkkabel and Server"></lazyload> --}}
+                <img class="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" src="{{ asset('/img/server_network.webp') }}" alt="stats">
             </div>
             <div class="hidden sm:flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pl-10">
                 <div class="w-full sm:p-4 px-4 mb-6">
