@@ -68,6 +68,8 @@ class ServicesController extends Controller
                 $this->validateOrt($ort);
             }
             $this->setMeta($ort,ucfirst($service));
+            SEOMeta::setCanonical(route('services.softwareentwicklung'));
+
             return view('services.softwareentwicklung.index');
         }
         else if(in_array($service,config('data.servicesItBeratung'))){
@@ -75,6 +77,8 @@ class ServicesController extends Controller
                 $this->validateOrt($ort);
             }
             $this->setMeta($ort,ucfirst($service));
+            SEOMeta::setCanonical(route('services.it-beratung'));
+
             return view('services.it-beratung.index');
         }
         else if(in_array($service,config('data.servicesItk'))){
@@ -82,6 +86,7 @@ class ServicesController extends Controller
                 $this->validateOrt($ort);
             }
             $this->setMeta($ort,ucfirst($service));
+            SEOMeta::setCanonical(route('services.itk-services'));
             return view('services.itk-services.index');
         }
         else{
