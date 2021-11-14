@@ -28,9 +28,9 @@ Route::get('/datenschutzerklärung', function () {
     return view('datenschutzerklärung');
 })->name('datenschutzerklärung');
 
-Route::get('/kundencenter', function () {
-    return view('kundencenter');
-})->name('kundencenter');
+// Route::get('/kundencenter', function () {
+//     return view('kundencenter');
+// })->name('kundencenter');
 
 Route::post('/email', function (\Illuminate\Http\Request $request) {
     $validated = $request->validate([

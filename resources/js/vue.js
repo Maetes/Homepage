@@ -11,9 +11,10 @@ import FabButton from "./components/FabButton";
 import Dropdown from "./components/Dropdown";
 import DropdownLink from "./components/DropdownLink";
 import MobileMenu from "./components/MobileMenu";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 import LogoContainer from "./components/LogoContainer";
 import LazyLoad from "./components/LazyLoad";
+// import MobileContactForm from "./components/MobileContactForm";
 // import FloatingContactForm from "./components/FloatingContactForm";
 
 const app = createApp({})
@@ -29,8 +30,9 @@ const app = createApp({})
     .component('dropdown',Dropdown)
     .component('dropdownlink',DropdownLink)
     .component('mobilemenu',MobileMenu)
-    .component('contact',Contact)
+    // .component('contact',Contact)
     .component('logocontainer',LogoContainer)
     .component('lazyload',LazyLoad)
+    // .component('mobilecontactform',MobileContactForm)
     // .component('floatingcontactform',FloatingContactForm)
     .mount('#app');
