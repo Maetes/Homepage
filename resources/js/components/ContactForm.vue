@@ -2,14 +2,14 @@
     <form @submit.prevent="sendForm"  action="/email" method="POST">
         <slot></slot>
         <div class="flex flex-wrap -m-2">
-            <div class="p-2 w-1/2">
+            <div class="p-2 w-full sm:w-1/2">
                 <div class="relative">
                     <label for="name" class="leading-7 text-sm text-gray-600 font-basic" >Name</label>
                     <input required v-model="name" type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-mtw-primary focus:bg-white focus:ring-2 focus:ring-mtw-stoneblue text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" :class="{'ring-red-400 ring-2' : this.error.name!=='' }">
                     <p v-if="this.error.name!==''" class="text-red-400 font-basic text-sm" v-text="this.error.name"></p>
                 </div>
             </div>
-            <div class="p-2 w-1/2">
+            <div class="p-2 w-full sm:w-1/2">
                 <div class="relative">
                     <label for="email" class="leading-7 text-sm text-gray-600 font-basic">E-Mail-Adresse</label>
                     <input required v-model="email" type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-mtw-primary focus:bg-white focus:ring-2 focus:ring-mtw-stoneblue text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" :class="{'ring-red-400 ring-2' : this.error.email!=='' }">
@@ -19,7 +19,7 @@
             <div class="p-2 w-full">
                 <div class="relative">
                     <label for="message" class="leading-7 text-sm text-gray-600 font-basic">Nachricht</label>
-                    <textarea required v-model="message" id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-mtw-primary focus:bg-white focus:ring-2 focus:ring-mtw-stoneblue h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" :class="{'ring-red-400 ring-2' : this.error.message!=='' }"></textarea>
+                    <textarea required v-model="message" id="message" name="message" class="w-full resize-y bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-mtw-primary focus:bg-white focus:ring-2 focus:ring-mtw-stoneblue h-32 text-base outline-none text-gray-700 py-1 px-3 leading-6 transition-colors duration-200 ease-in-out" :class="{'ring-red-400 ring-2' : this.error.message!=='' }"></textarea>
                     <p v-if="this.error.message!==''" class="text-red-400 font-basic text-sm" v-text="this.error.message"></p>
                 </div>
             </div>
