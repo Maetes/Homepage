@@ -5,7 +5,7 @@
         <NavbarContent></NavbarContent>
     </div>
 
-    <div class="mx-auto px-10 lg:px-32 py-10 font-basic">
+    <div class="mx-auto px-10 lg:px-32 py-10 font-basic min-h-screen">
         <h1 class="text-2xl font-semibold font-title pb-3">Impressum</h1>
         {{--  Impressum Content --}}
 
