@@ -23,7 +23,7 @@
                     <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 ease-in-out duration-500">
                         <h1 class="title-font text-lg font-medium text-gray-900 mb-3">M&S Bau und Dach GmbH</h1>
                         {{-- <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p> --}}
-                        <a class="text-mtw-primary pt-2" href="https://www.mundsbau24.de/" target="_blank" >Zur Website</a>
+                        {{-- <a class="text-mtw-primary pt-2" href="https://www.mundsbau24.de/" target="_blank" >Zur Website</a> --}}
                     </div>
                 </div>
             </div>
