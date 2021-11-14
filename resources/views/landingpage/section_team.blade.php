@@ -11,10 +11,10 @@
         </div>
         <div class="flex flex-wrap justify-center mx-auto -m-4">
             <div class="p-4 lg:w-1/4 md:w-1/2">
-                <div class="h-full flex flex-col items-center text-center">
-                    <a href="{{ route('team.martin') }}">
-                        <img width="256" height="224" alt="team" class="opacity-60 hover:opacity-90 flex-shrink-0 rounded-lg w-64 h-56 object-cover object-center mb-4" src="./img/team/martin.webp">
-                    </a>
+                <div class="h-full flex flex-col items-center text-center group">
+                    <div>
+                        <img width="256" height="224" alt="team" class="flex-shrink-0 rounded-lg w-64 h-96 filter saturate-0 group-hover:saturate-100 ease-in-out duration-1000 object-cover mb-4" src="./img/team/martin_foto.webp">
+                    </div>
                     <div class="w-full">
                         <a href="{{ route('team.martin') }}">
                             <h3 class="title-font font-medium text-lg text-gray-900">Martin Müller</h3>
@@ -43,10 +43,10 @@
                 </div>
             </div>
             <div class="p-4 lg:w-1/4 md:w-1/2">
-                <div class="h-full flex flex-col items-center text-center">
-                    <a href="{{ route('team.tim') }}">
-                        <img width="256" height="224" alt="team" class="opacity-60 hover:opacity-90 flex-shrink-0 rounded-lg w-64 h-56 object-cover object-center mb-4" src="./img/team/tim.webp">
-                    </a>
+                <div class="h-full flex flex-col items-center text-center group">
+                    <div>
+                        <img width="256" height="224" alt="team" class="flex-shrink-0 rounded-lg w-64 h-96 filter saturate-0 group-hover:saturate-100 ease-in-out duration-1000 object-cover mb-4" src="./img/team/tim.webp">
+                    </div>
                     <div class="w-full">
                         <a href="{{ route('team.tim') }}">
                             <h3 class="title-font font-medium text-lg text-gray-900">Tim Tomczak</h3>
@@ -74,10 +74,10 @@
                 </div>
             </div>
             <div class="p-4 lg:w-1/4 md:w-1/2">
-                <div class="h-full flex flex-col items-center text-center">
-                    <a href="{{ route('team.sven') }}">
-                        <img width="256" height="224" alt="team" class="opacity-60 hover:opacity-90 flex-shrink-0 rounded-lg w-64 h-56 object-cover mb-4" src="/img/team/sven.webp">
-                    </a>
+                <div class="h-full flex flex-col items-center text-center group">
+                    <div>
+                        <img width="256" height="224" alt="team" class="flex-shrink-0 rounded-lg w-64 h-96 filter saturate-0 group-hover:saturate-100 ease-in-out duration-1000 object-cover mb-4" src="{{ asset('/img/team/sven_foto.webp') }}">
+                    </div>
                     <div class="w-full">
                         <a href="{{ route('team.sven') }}">
                             <h3 class="title-font font-medium text-lg text-gray-900">Sven Walbröl</h3>

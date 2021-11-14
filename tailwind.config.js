@@ -40,6 +40,8 @@ module.exports = {
             display: ['group-hover'],
             scale: ['group-hover'],
             translate: ['group-hover'],
+            filter: ['group-hover','hover'],
+            saturate: ['group-hover','hover'],
         },
     },
     plugins: [],
