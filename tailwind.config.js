@@ -4,10 +4,12 @@ module.exports = {
         content: [
             './resources/views/*.blade.php',
             './resources/views/**/*.blade.php',
+            './resources/views/**/**/*.blade.php',
             './resources/**/*.blade.php',
             './resources/**/*.js',
             './resources/js/**/*.js',
             './resources/js/*.js',
+            './resources/js/components/*.js',
             './resources/**/*.vue',
             './resources/js/**/*.vue',
             './resources/js/*.vue'

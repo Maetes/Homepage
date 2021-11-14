@@ -11,9 +11,9 @@ const path = require('path');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js').extract()
+mix.js('resources/js/app.js', 'public/js')
     .js('resources/js/app_defer.js','public/js').extract()
-    .js('resources/js/parallax.js','public/js').extract()
+    .js('resources/js/parallax.js','public/js')
     .alias({
         ziggy: path.resolve('vendor/tightenco/ziggy/dist/vue'), // or 'vendor/tightenco/ziggy/dist/vue' if you're using the Vue plugin
     })
