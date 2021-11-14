@@ -1278,17 +1278,13 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 
 var _hoisted_3 = [_hoisted_2];
 var _hoisted_4 = {
-  key: 0,
-  "class": "z-50 fixed right-0 top-0 h-full w-full overflow-hidden noscroll"
+  "class": "absolute float-right bg-gray-50 w-2/3 md:w-1/2 h-full flex flex-col mx-auto z-50 overflow-x-hidden overflow-y-auto"
 };
 var _hoisted_5 = {
-  "class": "float-right bg-gray-50 w-2/3 md:w-1/2 h-full flex flex-col mx-auto z-50"
-};
-var _hoisted_6 = {
   "class": "flex items-center justify-end h-20 mr-5 sm:mr-20"
 };
 
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
   xmlns: "http://www.w3.org/2000/svg",
   width: "30",
   height: "30",
@@ -1301,13 +1297,14 @@ var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_8 = [_hoisted_7];
+var _hoisted_7 = [_hoisted_6];
+var _hoisted_8 = {
+  "class": "mx-auto px-5 sm:px-24 sm:py-20"
+};
 var _hoisted_9 = {
-  "class": "mx-auto px-5 sm:px-24 py-20"
+  "class": "flex flex-col space-y-8 font-basic text-xl"
 };
-var _hoisted_10 = {
-  "class": "flex flex-col items-center space-y-10 font-basic text-xl"
-};
+var _hoisted_10 = ["href"];
 var _hoisted_11 = ["href"];
 var _hoisted_12 = ["href"];
 var _hoisted_13 = ["href"];
@@ -1353,12 +1350,18 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     mode: "out-in"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [$data.showMenu ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Menu "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+      return [$data.showMenu ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+        key: 0,
+        onClick: _cache[11] || (_cache[11] = function () {
+          return $options.toggleMenu && $options.toggleMenu.apply($options, arguments);
+        }),
+        "class": "z-50 fixed right-0 top-0 h-full w-full overflow-hidden noscroll"
+      }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Menu "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
         onClick: _cache[2] || (_cache[2] = function () {
           return $options.toggleMenu && $options.toggleMenu.apply($options, arguments);
         }),
         "class": "rounded-full text-mtw-secondary bg-mtw-primary"
-      }, _hoisted_8)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+      }, _hoisted_7)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
         onClick: _cache[3] || (_cache[3] = function () {
           return $options.toggleMenu && $options.toggleMenu.apply($options, arguments);
         }),
@@ -1366,7 +1369,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         href: _ctx.route('home') + '#services'
       }, "Services", 8
       /* PROPS */
-      , _hoisted_11), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+      , _hoisted_10), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
         onClick: _cache[4] || (_cache[4] = function () {
           return $options.toggleMenu && $options.toggleMenu.apply($options, arguments);
         }),
@@ -1374,7 +1377,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         href: _ctx.route('services.softwareentwicklung')
       }, "softwareentwicklung", 8
       /* PROPS */
-      , _hoisted_12), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+      , _hoisted_11), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
         onClick: _cache[5] || (_cache[5] = function () {
           return $options.toggleMenu && $options.toggleMenu.apply($options, arguments);
         }),
@@ -1382,7 +1385,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         href: _ctx.route('services.it-beratung')
       }, "it-beratung", 8
       /* PROPS */
-      , _hoisted_13), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+      , _hoisted_12), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
         onClick: _cache[6] || (_cache[6] = function () {
           return $options.toggleMenu && $options.toggleMenu.apply($options, arguments);
         }),
@@ -1390,7 +1393,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         href: _ctx.route('services.itk-services')
       }, "itk-services", 8
       /* PROPS */
-      , _hoisted_14), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+      , _hoisted_13), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
         onClick: _cache[7] || (_cache[7] = function () {
           return $options.toggleMenu && $options.toggleMenu.apply($options, arguments);
         }),
@@ -1398,16 +1401,24 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         href: _ctx.route('home') + '#portfolio'
       }, "Portfolio", 8
       /* PROPS */
-      , _hoisted_15), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+      , _hoisted_14), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
         onClick: _cache[8] || (_cache[8] = function () {
           return $options.toggleMenu && $options.toggleMenu.apply($options, arguments);
         }),
         "class": "transform hover:translate-x-1 ",
-        href: _ctx.route('home') + '#team'
-      }, "Über uns", 8
+        href: _ctx.route('home') + '#referenzen'
+      }, "Referenzen", 8
       /* PROPS */
-      , _hoisted_16), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <a @click=\"toggleMenu\" href=\"/kundencenter\" class=\"rounded-xl shadow-md bg-mtw-primary px-4 py-2 flex inline-flex text-mtw-secondary items-center\">\r\n                                <span class=\"pr-2\">Kundencenter</span>\r\n                                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"currentColor\" class=\"bi bi-box-arrow-right\" viewBox=\"0 0 16 16\">\r\n                                    <path fill-rule=\"evenodd\" d=\"M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z\"/>\r\n                                    <path fill-rule=\"evenodd\" d=\"M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z\"/>\r\n                                </svg>\r\n                            </a> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+      , _hoisted_15), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
         onClick: _cache[9] || (_cache[9] = function () {
+          return $options.toggleMenu && $options.toggleMenu.apply($options, arguments);
+        }),
+        "class": "transform hover:translate-x-1 ",
+        href: _ctx.route('home') + '#team'
+      }, "Das Team", 8
+      /* PROPS */
+      , _hoisted_16), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <a @click=\"toggleMenu\" href=\"/kundencenter\" class=\"rounded-xl shadow-md bg-mtw-primary px-4 py-2 flex inline-flex text-mtw-secondary items-center\">\n                                <span class=\"pr-2\">Kundencenter</span>\n                                <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"currentColor\" class=\"bi bi-box-arrow-right\" viewBox=\"0 0 16 16\">\n                                    <path fill-rule=\"evenodd\" d=\"M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z\"/>\n                                    <path fill-rule=\"evenodd\" d=\"M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z\"/>\n                                </svg>\n                            </a> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+        onClick: _cache[10] || (_cache[10] = function () {
           return $options.toggleMenu && $options.toggleMenu.apply($options, arguments);
         }),
         href: _ctx.route('home') + '#kontakt',
@@ -3391,7 +3402,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.menu-enter-active[data-v-98f701fa]{\r\n    -webkit-animation: slide-in-right-98f701fa 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;\r\n    animation: slide-in-right-98f701fa 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;\n}\n.menu-leave-active[data-v-98f701fa]{\r\n    -webkit-animation: slide-out-right-98f701fa 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;\r\n    animation: slide-out-right-98f701fa 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;\n}\n.disappear-leave-to[data-v-98f701fa] {\r\n    -webkit-animation: disappear-98f701fa 0s ease-in 0.3s forwards;\r\n    animation: disappear-98f701fa 0s ease-in 0.3s forwards;\r\n    -webkit-animation-fill-mode: forwards;\r\n    animation-fill-mode: forwards;\n}\r\n\r\n/* ----------------------------------------------\r\n * Generated by Animista on 2021-9-6 20:29:2\r\n * Licensed under FreeBSD License.\r\n * See http://animista.net/license for more info.\r\n * w: http://animista.net, t: @cssanimista\r\n * ---------------------------------------------- */\r\n\r\n/**\r\n * ----------------------------------------\r\n * animation slide-in-right\r\n * ----------------------------------------\r\n */\n@-webkit-keyframes slide-in-right-98f701fa {\n0% {\r\n        transform: translateX(1000px);\r\n        opacity: 0;\n}\n100% {\r\n        transform: translateX(0);\r\n        opacity: 1;\n}\n}\n@keyframes slide-in-right-98f701fa {\n0% {\r\n        transform: translateX(1000px);\r\n        opacity: 0;\n}\n100% {\r\n        transform: translateX(0);\r\n        opacity: 1;\n}\n}\r\n\r\n/* ----------------------------------------------\r\n * Generated by Animista on 2021-9-6 20:30:17\r\n * Licensed under FreeBSD License.\r\n * See http://animista.net/license for more info.\r\n * w: http://animista.net, t: @cssanimista\r\n * ---------------------------------------------- */\r\n\r\n/**\r\n * ----------------------------------------\r\n * animation slide-out-right\r\n * ----------------------------------------\r\n */\n@-webkit-keyframes slide-out-right-98f701fa {\n0% {\r\n        transform: translateX(0);\r\n        opacity: 1;\n}\n100% {\r\n        transform: translateX(1000px);\r\n        opacity: 0;\n}\n}\n@keyframes slide-out-right-98f701fa {\n0% {\r\n        transform: translateX(0);\r\n        opacity: 1;\n}\n100% {\r\n        transform: translateX(1000px);\r\n        opacity: 0;\n}\n}\n@keyframes disappear-98f701fa {\nto {\r\n        display: none;\n}\n}\n@-webkit-keyframes disappear-98f701fa {\nto {\r\n        display: none;\r\n        visibility: hidden;\n}\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.menu-enter-active[data-v-98f701fa]{\n    -webkit-animation: slide-in-right-98f701fa 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;\n    animation: slide-in-right-98f701fa 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;\n}\n.menu-leave-active[data-v-98f701fa]{\n    -webkit-animation: slide-out-right-98f701fa 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;\n    animation: slide-out-right-98f701fa 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;\n}\n.disappear-leave-to[data-v-98f701fa] {\n    -webkit-animation: disappear-98f701fa 0s ease-in 0.3s forwards;\n    animation: disappear-98f701fa 0s ease-in 0.3s forwards;\n    -webkit-animation-fill-mode: forwards;\n    animation-fill-mode: forwards;\n}\n\n/* ----------------------------------------------\n * Generated by Animista on 2021-9-6 20:29:2\n * Licensed under FreeBSD License.\n * See http://animista.net/license for more info.\n * w: http://animista.net, t: @cssanimista\n * ---------------------------------------------- */\n\n/**\n * ----------------------------------------\n * animation slide-in-right\n * ----------------------------------------\n */\n@-webkit-keyframes slide-in-right-98f701fa {\n0% {\n        transform: translateX(1000px);\n        opacity: 0;\n}\n100% {\n        transform: translateX(0);\n        opacity: 1;\n}\n}\n@keyframes slide-in-right-98f701fa {\n0% {\n        transform: translateX(1000px);\n        opacity: 0;\n}\n100% {\n        transform: translateX(0);\n        opacity: 1;\n}\n}\n\n/* ----------------------------------------------\n * Generated by Animista on 2021-9-6 20:30:17\n * Licensed under FreeBSD License.\n * See http://animista.net/license for more info.\n * w: http://animista.net, t: @cssanimista\n * ---------------------------------------------- */\n\n/**\n * ----------------------------------------\n * animation slide-out-right\n * ----------------------------------------\n */\n@-webkit-keyframes slide-out-right-98f701fa {\n0% {\n        transform: translateX(0);\n        opacity: 1;\n}\n100% {\n        transform: translateX(1000px);\n        opacity: 0;\n}\n}\n@keyframes slide-out-right-98f701fa {\n0% {\n        transform: translateX(0);\n        opacity: 1;\n}\n100% {\n        transform: translateX(1000px);\n        opacity: 0;\n}\n}\n@keyframes disappear-98f701fa {\nto {\n        display: none;\n}\n}\n@-webkit-keyframes disappear-98f701fa {\nto {\n        display: none;\n        visibility: hidden;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3415,7 +3426,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.slide-enter-active[data-v-d8efa568]{\r\n    -webkit-animation: slide-in-bottom-d8efa568 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;\r\n\t        animation: slide-in-bottom-d8efa568 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;\n}\n.slide-leave-active[data-v-d8efa568]{\r\n    -webkit-animation: slide-out-bottom-d8efa568 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;\r\n\t        animation: slide-out-bottom-d8efa568 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;\n}\r\n\r\n/* ----------------------------------------------\r\n * Generated by Animista on 2021-11-6 15:41:32\r\n * Licensed under FreeBSD License.\r\n * See http://animista.net/license for more info.\r\n * w: http://animista.net, t: @cssanimista\r\n * ---------------------------------------------- */\r\n\r\n/**\r\n * ----------------------------------------\r\n * animation slide-in-bottom\r\n * ----------------------------------------\r\n */\n@-webkit-keyframes slide-in-bottom-d8efa568 {\n0% {\r\n    transform: translateY(1000px);\r\n    opacity: 0;\n}\n100% {\r\n    transform: translateY(0);\r\n    opacity: 1;\n}\n}\n@keyframes slide-in-bottom-d8efa568 {\n0% {\r\n    transform: translateY(1000px);\r\n    opacity: 0;\n}\n100% {\r\n    transform: translateY(0);\r\n    opacity: 1;\n}\n}\r\n\r\n/* ----------------------------------------------\r\n * Generated by Animista on 2021-11-6 15:42:39\r\n * Licensed under FreeBSD License.\r\n * See http://animista.net/license for more info.\r\n * w: http://animista.net, t: @cssanimista\r\n * ---------------------------------------------- */\r\n\r\n/**\r\n * ----------------------------------------\r\n * animation slide-out-bottom\r\n * ----------------------------------------\r\n */\n@-webkit-keyframes slide-out-bottom-d8efa568 {\n0% {\r\n    transform: translateY(0);\r\n    opacity: 1;\n}\n100% {\r\n    transform: translateY(1000px);\r\n    opacity: 0;\n}\n}\n@keyframes slide-out-bottom-d8efa568 {\n0% {\r\n    transform: translateY(0);\r\n    opacity: 1;\n}\n100% {\r\n    transform: translateY(1000px);\r\n    opacity: 0;\n}\n}\r\n\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.slide-enter-active[data-v-d8efa568]{\n    -webkit-animation: slide-in-bottom-d8efa568 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;\n\t        animation: slide-in-bottom-d8efa568 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;\n}\n.slide-leave-active[data-v-d8efa568]{\n    -webkit-animation: slide-out-bottom-d8efa568 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;\n\t        animation: slide-out-bottom-d8efa568 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;\n}\n\n/* ----------------------------------------------\n * Generated by Animista on 2021-11-6 15:41:32\n * Licensed under FreeBSD License.\n * See http://animista.net/license for more info.\n * w: http://animista.net, t: @cssanimista\n * ---------------------------------------------- */\n\n/**\n * ----------------------------------------\n * animation slide-in-bottom\n * ----------------------------------------\n */\n@-webkit-keyframes slide-in-bottom-d8efa568 {\n0% {\n    transform: translateY(1000px);\n    opacity: 0;\n}\n100% {\n    transform: translateY(0);\n    opacity: 1;\n}\n}\n@keyframes slide-in-bottom-d8efa568 {\n0% {\n    transform: translateY(1000px);\n    opacity: 0;\n}\n100% {\n    transform: translateY(0);\n    opacity: 1;\n}\n}\n\n/* ----------------------------------------------\n * Generated by Animista on 2021-11-6 15:42:39\n * Licensed under FreeBSD License.\n * See http://animista.net/license for more info.\n * w: http://animista.net, t: @cssanimista\n * ---------------------------------------------- */\n\n/**\n * ----------------------------------------\n * animation slide-out-bottom\n * ----------------------------------------\n */\n@-webkit-keyframes slide-out-bottom-d8efa568 {\n0% {\n    transform: translateY(0);\n    opacity: 1;\n}\n100% {\n    transform: translateY(1000px);\n    opacity: 0;\n}\n}\n@keyframes slide-out-bottom-d8efa568 {\n0% {\n    transform: translateY(0);\n    opacity: 1;\n}\n100% {\n    transform: translateY(1000px);\n    opacity: 0;\n}\n}\n\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

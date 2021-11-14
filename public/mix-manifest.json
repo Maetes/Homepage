@@ -1,8 +1,8 @@
 {
-    "/js/app.js": "/js/app.js?id=4352c303f0bf0af95b4f",
-    "/js/app_defer.js": "/js/app_defer.js?id=1ad5231f66af0e89865d",
-    "/js/parallax.js": "/js/parallax.js?id=a87d27a60ad4d6de399a",
-    "/js/manifest.js": "/js/manifest.js?id=eaec000db3b893098040",
-    "/css/app.css": "/css/app.css?id=8da8653ad49017bd1d07",
-    "/js/vendor.js": "/js/vendor.js?id=1bb6dabff7c0223ce287"
+    "/js/app.js": "/js/app.js",
+    "/js/app_defer.js": "/js/app_defer.js",
+    "/js/parallax.js": "/js/parallax.js",
+    "/js/manifest.js": "/js/manifest.js",
+    "/css/app.css": "/css/app.css",
+    "/js/vendor.js": "/js/vendor.js"
 }
