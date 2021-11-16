@@ -20,7 +20,7 @@
                 <div class="font-title h-64 pb-10 sm:pb-0 pl-10  text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mr-10">
                     <h1 class="">Wir schaffen Ihre</h1>
 {{--                    <h1 class="h-20 inline-flex bg-clip-text font-extrabold text-transparent bg-gradient-to-br via-mtw-primary from-mtw-primary to-mtw-secondary">IT-Lösung</h1>--}}
-                    <h1 class="h-10 sm:h-20 inline-flex text-mtw-primary">IT-Lösung</h1>
+                    <h1 class="h-10 sm:h-20 inline-flex text-mtw-primary">IT-Lösungen</h1>
 {{--                    <p class="text-sm sm:text-base lg:text-lg font-medium font-basic">Web- und Appentwicklung &centerdot; IT-Beratung &centerdot; ITK-Services</p>--}}
                     <Typewriter></Typewriter>
                 </div>
