@@ -39,49 +39,6 @@
             </div>
         </div>
     </section>
-    <section class="bg-gray-50">
-        <div class="container px-5 py-16 mx-auto flex flex-wrap">
-            <div class="sm:hidden flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pl-10">
-                <div class="w-full sm:p-4 px-4 mb-6">
-                    <h1 class="title-font font-medium text-xl mb-2 text-gray-900">Netzwerktechnik</h1>
-                    <div class="leading-relaxed">Wir beraten Sie gerne bei der Beschaffung von neuer, oder Administration bestehender IT-Infrastruktur.</div>
-                </div>
-                <div class="flex flex-col sm:p-4 px-4">
-                    <p class="pl-1">Mehr dazu finden sie hier:</p>
-                    <a href="{{ route('services.itk-services') }}" class="px-4 py-2 text-sm sm:text-base rounded-2xl bg-mtw-primary text-mtw-secondary hover:bg-gray-700 transform hover:scale-95 font-semibold ">Informations- und Kommunikationstechnik</a>
-                </div>
-            </div>
-            <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mb-6 sm:my-0">
-                {{-- <lazyload tagtype="img" classes="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" loading='lazy' src="{{ asset('/img/network.webp') }}" alt="Bild Netzwerkkabel and Switch"></lazyload> --}}
-                <img class="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" src="{{ asset('/img/network.webp') }}" alt="stats">
-            </div>
-            <div class="hidden sm:flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pl-10">
-                <div class="w-full sm:p-4 px-4 mb-6">
-                    <h1 class="title-font font-medium text-xl mb-2 text-gray-900">Netzwerktechnik</h1>
-                    <div class="leading-relaxed">Wir beraten Sie gerne bei der Beschaffung von neuer, oder Administration bestehender IT-Infrastruktur.</div>
-                </div>
-                <div class="flex flex-col sm:p-4 px-4">
-                    <p class="pl-1">Mehr dazu finden sie hier:</p>
-                    <a href="{{ route('services.itk-services') }}" class="px-4 py-2 text-sm sm:text-base rounded-2xl bg-mtw-primary text-mtw-secondary hover:bg-gray-700 transform hover:scale-95 font-semibold">Informations- und Kommunikationstechnik</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="bg-gray-50">
-        <div class="container px-5 py-16 mx-auto flex flex-wrap">
-
-            <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
-                <div class="w-full sm:p-4 px-4 mb-6">
-                <h1 class="title-font font-medium text-xl mb-2 text-gray-900">Cloud-Lösungen und zentrale Datenverarbeitung</h1>
-                <div class="leading-relaxed">Gerne untertützen wir Sie beim Aufbau Ihrer eigenen Cloud-Lösung zur zentralen Informations- und Datenablage, die einen einfachen Informationsaustausch zwischen Standorten, Abteilungen oder Mitarbeitern ermöglicht.</div>
-                </div>
-            </div>
-            <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
-                {{-- <lazyload tagtype="img" classes="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" loading='lazy' src="{{ asset('/img/cloud.webp') }}" alt="Bild Aneinandergereite Festplatten"></lazyload> --}}
-                <img class="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" src="{{ asset('/img/cloud.webp') }}" alt="stats">
-            </div>
-        </div>
-      </section>
 
     <section class="bg-gray-50">
         <div class="container px-5 py-16 mx-auto flex flex-wrap">
@@ -106,5 +63,23 @@
 
             </div>
       </section>
+
+    <section class="bg-gray-50">
+        <div class="container px-5 py-16 mx-auto flex flex-wrap">
+
+            <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+                <div class="w-full sm:p-4 px-4 mb-6">
+                <h1 class="title-font font-medium text-xl mb-2 text-gray-900">Cloud-Lösungen und zentrale Datenverarbeitung</h1>
+                <div class="leading-relaxed">Gerne untertützen wir Sie beim Aufbau Ihrer eigenen Cloud-Lösung zur zentralen Informations- und Datenablage, die einen einfachen Informationsaustausch zwischen Standorten, Abteilungen oder Mitarbeitern ermöglicht.</div>
+                </div>
+            </div>
+            <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+                {{-- <lazyload tagtype="img" classes="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" loading='lazy' src="{{ asset('/img/cloud.webp') }}" alt="Bild Aneinandergereite Festplatten"></lazyload> --}}
+                <img class="object-cover object-center w-full h-80 sm:h-full lg:h-80 rounded-lg" src="{{ asset('/img/cloud.webp') }}" alt="stats">
+            </div>
+        </div>
+    </section>
+
+
 
 @endsection

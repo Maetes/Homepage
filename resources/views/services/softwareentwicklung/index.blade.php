@@ -32,7 +32,7 @@
         </x-card>
         <x-card>
             <x-slot name="title">Shopsysteme</x-slot>
-            Wer Produkte verkaufen möchte, für den ist eine gute Präsenz im E-Commerce unumgänglich. 
+            Wer Produkte verkaufen möchte, für den ist eine gute Präsenz im E-Commerce unumgänglich.
             <br>Wunschweise bauen oder optimieren wir Ihren Onlineshop.
         </x-card>
         <x-card>
@@ -105,7 +105,7 @@
                         </svg>
                     </div>
                     <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 transform group-hover:translate-x-2 ease-in-out duration-300">
-                        <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Entwuft und Prototyp</h2>
+                        <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Entwurf und Prototyp</h2>
                         <p class="leading-relaxed">Im Rahmen der festgehaltenen Anforderungen erfolgt die Entwicklung eines Prototypen oder eines Erstentwurfs. Nach gemeinsamer Durchsicht und Durchsprache können weitere Feinjustierungen vorgenommen werden.</p>
                     </div>
                 </div>

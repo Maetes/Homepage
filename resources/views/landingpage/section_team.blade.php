@@ -45,7 +45,7 @@
             <div class="p-4 lg:w-1/4 md:w-1/2">
                 <div class="h-full flex flex-col items-center text-center group">
                     <div>
-                        <img width="256" height="224" alt="team" class="flex-shrink-0 rounded-lg w-64 h-96 filter saturate-0 group-hover:saturate-100 ease-in-out duration-1000 object-cover mb-4" src="./img/team/tim.webp">
+                        <img width="256" height="224" alt="team" class="flex-shrink-0 rounded-lg w-64 h-96 filter saturate-0 group-hover:saturate-100 ease-in-out duration-1000 object-cover mb-4" src="./img/team/tim_foto.webp">
                     </div>
                     <div class="w-full">
                         <a href="{{ route('team.tim') }}">
