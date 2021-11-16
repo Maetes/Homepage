@@ -14,7 +14,7 @@
             </div>
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                 <h3 class="text-gray-900 text-lg font-title font-semibold mb-2 ">Wordpress</h3>
-                <p class="leading-relaxed text-base font-basic">
+                <p class="leading-relaxed text-base font-basic text-justify">
                     Das <abbr title="Content-Management-System">CMS</abbr> WordPress hat sich durch seine
                     einfache Bedienbarkeit und durch die Möglichkeit der schnellen Umsetzung vom reinen
                     Blog-System zum Spitzenreiter einfacher Webprojekte entwickelt. Durch Plugins lassen
@@ -32,9 +32,9 @@
 
 
         <a href="https://typo3.org" target="_blank" class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:-translate-x-5 ease-out duration-300">
-            <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0 ">
+            <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                 <h3 class="text-gray-900 text-lg font-title font-semibold mb-2">Typo3</h3>
-                <p class="leading-relaxed text-base font-basic">
+                <p class="leading-relaxed text-base font-basic text-justify">
                     TYPO3 ist ein Open-Source-CMS, welches sich besonders für größere Firmen mit umfangreichen
                     Projekten und großen Datenmengen eignet. Mit TYPO3 haben Sie unter anderem die Möglichkeit
                     der zeitlichen Steuerung zum Ein- und Ausblenden von Inhalten, eine Benutzerverwaltung, eine
@@ -63,9 +63,9 @@
             </div>
             <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                 <h3 class="text-gray-900 text-lg font-title font-semibold mb-2">Shopware</h3>
-                <p class="leading-relaxed text-base font-basic">
+                <p class="leading-relaxed text-base font-basic text-justify">
                     Shopware ist die ideale Wahl für alle Unternehmen, die einen kundenorientierten und erfolgreichen Onlineshop betreiben möchten.
-                    Durch die einfache und intuitive zu bedienende Backend-Oberfläche sind Shop-Betreiber in der Lage, im laufenden Betrieb viele
+                    Durch die einfache und intuitiv zu bedienende Backend-Oberfläche sind Shop-Betreiber in der Lage, im laufenden Betrieb viele
                     Änderungen an Website und Shop selbständig vorzunehmen.
                 </p>
                 {{--
@@ -79,9 +79,9 @@
         </a>
 
         <a href="https://laravel.com/" class="flex items-center lg:w-4/5 mx-auto border-b pb-10 mb-10 border-gray-400 sm:flex-row flex-col transform hover:-translate-x-5 ease-out duration-300">
-            <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0 ">
+            <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                 <h3 class="text-gray-900 text-lg font-title font-semibold mb-2">Laravel</h3>
-                <p class="leading-relaxed text-base font-basic">
+                <p class="leading-relaxed text-base font-basic text-justify">
                     Laravel ist ein plattformübergreifendes PHP-Framework für die Entwicklung von Webanwendungen.
                     Laravel-Anwendungen sind hoch skalierbar und haben eine einfach zu wartende Codebasis.
                     Dank des modularen Paketsystems und des robusten Abhängigkeitsmanagements von Laravel

@@ -15,31 +15,30 @@
     <div class="w-full h-32 bg-mtw-primary"></div>
     <div class="container mx-auto transform -translate-y-20 grid grid-cols-1 px-6 sm:px-20 md:px-6 md:grid-cols-2 xl:grid-cols-4 gap-4 md:gap-8">
         <x-card>
-            <x-slot name="title">Website Erstellung</x-slot>
-            Wer sich im Internet präsentieren und auch gefunden werden möchte benötigt eine moderne, repräsentative und
+            <x-slot name="title">Webseitenerstellung</x-slot>
+            Wer sich im Internet gut präsentieren und auch schnell gefunden werden möchte, benötigt eine moderne, repräsentative und
             suchmaschinenoptimierte Homepage. Das gilt für Kleingewerbe, große Unternehmen, wie auch für Privatpersonen.
             <br>
-            <p class="font-medium pt-1">Wir erstellen die individuelle Website, die Sie sich wünschen.</p>
+            <p class="font-medium pt-1">Wir erstellen die individuelle Webseite, die Sie sich wünschen.</p>
         </x-card>
         <x-card>
             <x-slot name="title">Content Management-Systeme</x-slot>
-            Für größere Portale, Blogs oder Websites mit vielen Inhalten empfehlen wir <abbr
-                title="Content Management Systeme">CMS-Systeme</abbr>, die es Ihnen ermöglichen Ihre Inhalte ohne großes technisches Hintergrundwissen selbst zu
+            Für größere Portale, Blogs oder Webseiten mit vielen Inhalten empfehlen wir <abbr
+                title="Content Management Systeme">CMS-Systeme</abbr>, die es Ihnen ermöglichen Ihre Inhalte ohne technisches Hintergrundwissen selbst zu
             verwalten und zu generieren.
-            <br><br>Hierzu nutzen wir gerne <span class="font-semibold">Wordpress</span>, <span
-                class="font-semibold">Typo3</span> oder je nach Anwendungsbreich auch <span class="font-semibold">selbst
+            <br><br>Hierzu nutzen wir <span class="font-semibold">Wordpress</span>, <span
+                class="font-semibold">Typo3</span> oder bei individuellen Vorstellungen auch <span class="font-semibold">selbst
                 entwickelte Lösungen</span> zum Content Management.
         </x-card>
         <x-card>
             <x-slot name="title">Shopsysteme</x-slot>
-            Wer Produkte verkaufen möchte kommt heute am E-Commerce kaum noch vorbei. Der Handel verlagert sich immer stärker ins Online-Geschäft.
-            <br>Hier möchten wir unseren Beitrag leisten Sie dabei zu unterstützen Ihren modernen Onlineshop aufzubauen.
+            Wer Produkte verkaufen möchte, für den ist eine gute Präsenz im E-Commerce unumgänglich. 
+            <br>Wunschweise bauen oder optimieren wir Ihren Onlineshop.
         </x-card>
         <x-card>
             <x-slot name="title">Individuelle Softwarelösungen</x-slot>
-            Sie haben besondere Anwendungsfälle oder eine besondere Idee, die nicht in das Standardkorsett von anderen
-            Lösungen passt ? Kein Problem !
-            <br><br>Auch hier sind wir in modernsten Technologien fachlich bestens aufgestellt um Sie zu beraten und Ihre maßgeschneiderte Lösung zu entwickeln.
+            Sie möchten Ihre individuellen Prozesse digitalisieren oder haben eine Idee die nicht in das Standardkorsett von anderen Lösungen passt? Kein Problem!
+            <br><br>Hier sind wir mit modernsten Technologien fachlich bestens aufgestellt, um Sie zu beraten und Ihre maßgeschneiderte Lösung zu entwickeln.
         </x-card>
     </div>
 
@@ -65,7 +64,7 @@
                     </div>
                     <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 transform group-hover:translate-x-2 ease-in-out duration-300">
                         <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Planung des Projektes</h2>
-                        <p class="leading-relaxed">Am Anfang jedes erfolgreichen Projektes steht eine solide Planung. Hier werden Zeitrahmen, Ziele und Wünsche festgehalten um das jeweilige Projekt für alle Beteiligten nach Ihren Erwartungen abschließen zu können.</p>
+                        <p class="leading-relaxed">Am Anfang jedes erfolgreichen Projektes steht eine solide Planung. Hier werden Zeitrahmen, Ziele und Wünsche festgehalten, um das Projekt erfolgreich nach Ihren Erwartungen abschließen zu können.</p>
                     </div>
                 </div>
             </div>
@@ -86,8 +85,8 @@
                     </div>
                     <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 transform group-hover:translate-x-2 ease-in-out duration-300">
                         <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Analyse und Definition von Anforderungen</h2>
-                        <p class="leading-relaxed">Um ein Produkt entwicklen zu können, muss man überhautpt erstmal erfassen, was genau denn entwickelt werden soll. Auch wenn sich Anforderungen im Laufe eines Projektes ändern können, stellen diese zunächst wichtige Entwicklungsziele und den Umfang der Entwicklung dar.</p>
-                        <p class="leading-relaxed pt-2">Das können zum Beispiel spezielle Designwünsche, besondere Kontaktmöglichkeiten, oder auch die Möglichkeit Inhalte selbst zu verwalten, sein.</p>
+                        <p class="leading-relaxed">Um ein Produkt entwicklen zu können, müssen zunächst konkrete Anforderungen definiert werden. Definierte Meilensteine dienen der Kontrolle der Umsetzung von Anforderungen und des Projektfortschritts.</p>
+                        <p class="leading-relaxed pt-2">Durch die von uns angewendeten agilen Entwicklungsverfahren können Anforderungen im Laufe eines Projektes jederzeit angepasst oder neu hinzugenommen werden.</p>
                     </div>
                 </div>
             </div>
@@ -106,8 +105,8 @@
                         </svg>
                     </div>
                     <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 transform group-hover:translate-x-2 ease-in-out duration-300">
-                        <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Entwurf / Prototyp</h2>
-                        <p class="leading-relaxed">Im Rahmen der festgehaltenen Anforderungen erfolgt dann die Entwicklung eines ersten Prototypen oder Entwurfs, der vor der umfassenden Entwicklung noch leicht angepasst werden kann, damit das Endprodukt auch Ihren vorstellungen entspricht.</p>
+                        <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Entwuft und Prototyp</h2>
+                        <p class="leading-relaxed">Im Rahmen der festgehaltenen Anforderungen erfolgt die Entwicklung eines Prototypen oder eines Erstentwurfs. Nach gemeinsamer Durchsicht und Durchsprache können weitere Feinjustierungen vorgenommen werden.</p>
                     </div>
                 </div>
             </div>
@@ -126,8 +125,8 @@
                         </svg>
                     </div>
                     <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 transform group-hover:translate-x-2 ease-in-out duration-300">
-                        <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Realisierung - Implementierung / Entwicklung</h2>
-                        <p class="leading-relaxed">Entsprechen Prototyp und Anforderungen Ihren Wünschen, folgt die Entwicklung und/oder Anpassung des Produktes.</p>
+                        <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Entwicklung und Realisierung</h2>
+                        <p class="leading-relaxed">Im gemeinsamen Austausch erfolgt sukzessive die Entwicklung des Produktes. So können Sie stets Einblick in die laufende Entwicklung nehmen.</p>
                     </div>
                 </div>
             </div>
@@ -147,7 +146,7 @@
                     </div>
                     <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 transform group-hover:translate-x-2 ease-in-out duration-300">
                         <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Tests und Einführung</h2>
-                        <p class="leading-relaxed">Im letzten Schritt des Entwicklungs- und implementierungsprozesses werden endgültige Tests entsprechend des entstandeden Produtes Ihrerseits und Unsererseits durchgeführt um zu gewährleisten, dass auch alles nach den definierten Anforderungen funktioniert und keine Fehler entstehen.</p>
+                        <p class="leading-relaxed">Durch definierte technische und fachliche Tests kann hohe Qualität und korrekte Umsetzung der definierten Anforderungen gewährleistet werden. Gemeinsam mit Ihnen wird das Produkt in Ihrem Unternehmen implementiert. Bei Bedarf übernehmen wir gerne die Schulung Ihrer Mitarbeiter, vor Ort oder in einem Onlineseminar.</p>
                     </div>
                 </div>
             </div>
@@ -168,8 +167,8 @@
                     </div>
                     <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 transform group-hover:translate-x-2 ease-in-out duration-300">
                         <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Support und Wartung</h2>
-                        <p class="leading-relaxed">Kaum etwas wandelt sich schneller das die digitale Welt. Auch wenn wir die, zum Zeitpunkt der Entwicklung, neusten Technologien verwenden und sehr gewissenhaft arbeiten, können Probleme oder Risken, aber auch neue Möglichkeiten und Chancen entstehen.</p>
-                        <p>Daher bieten wir, auch im Rahmen unserer Entwickler-, sowie <a href="">IT-Beratung</a>sexpersise Support und Wartung für unsere Produkte an.</p>
+                        <p class="leading-relaxed">Auch nach Abschluss eines Projektes begleiten wir Sie.</p>
+                        <p>Regelmäßige Updates und zuverlässiger Support gewährleisten den dauerhaft reibungslosen Einsatz des Produktes in Ihrem Unternehmen.</p>
                     </div>
                 </div>
             </div>

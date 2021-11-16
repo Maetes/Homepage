@@ -20,8 +20,8 @@
                 </div>
                 <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                     <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Netzwerktechnik</h2>
-                    <p class="leading-relaxed text-base pb-4">Mit der zunehmenden Digitalisierung ist es wichtig, dass alle Geräte reibungslos miteinander kommunizieren können und das gesamte Unternehmen vernetzt ist. Das ist eine komplexe Aufgabe, die wir gerne für Sie übernehmen.
-                        <br>Angefangen beim Aufbau Ihres Netzwerks mit Servern, LAN und W-LAN, bis hin zur Verkabeleung und drahtlosen Vernetzung aller Endgeräte.
+                    <p class="leading-relaxed text-base pb-4">Mit der zunehmenden Digitalisierung ist es wichtig, dass alle Geräte reibungslos miteinander kommunizieren können und das gesamte Unternehmen vernetzt ist. Das ist eine komplexe Aufgabe, die wir gerne für Sie übernehmen:
+                        <br>Vom Aufbau Ihres Netzwerks mit Servern, LAN und W-LAN, bis hin zur Verkabelung und drahtlosen Vernetzung aller Endgeräte.
                         <br><br>Gerne beraten wir Sie auch beim Ausbau, Instandhaltung und der Problembehebung bestehender Infrastruktur.
                     <p>
                     <a href="{{ route('services.it-beratung') }}" class="px-4 py-2 text-sm sm:text-base rounded-lg bg-mtw-primary text-mtw-secondary hover:bg-gray-700 transform hover:scale-95 font-semibold">Mehr zur IT-Bertung</a>
@@ -29,8 +29,8 @@
             </div>
             <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
                 <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
-                    <h2 class="text-gray-900 text-lg title-font font-medium mb-2">IP Telefonanlagen</h2>
-                    <p class="leading-relaxed text-base">Wir übernehmen alle Schritte zur Installation einer IP-Telefonanlage für Ihr Unternehmen. Neben der Installation und Konfiguration übernehmen wir die Verlegung sämtlicher dafür notwendiger Technik.</p>
+                    <h2 class="text-gray-900 text-lg title-font font-medium mb-2">IP-Telefonanlagen</h2>
+                    <p class="leading-relaxed text-base">Wir übernehmen alle Schritte zur Installation einer IP-Telefonanlage für Ihr Unternehmen. Das schließt die Konfiguration und die Verlegung sämtlicher dafür notwendiger Technik ein.</p>
                 </div>
                 <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-mtw-primary-lighter text-mtw-secondary flex-shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="sm:w-16 sm:h-16 w-10 h-10 bi bi-headset" viewBox="0 0 16 16">
@@ -48,8 +48,8 @@
                 </div>
                 <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
                     <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Server, Virtualisierung und PCs</h2>
-                    <p class="leading-relaxed text-base">Wir setzten die Grundlage flexibler IT-Infrastrukturen und installieren und konfigurieren für Sie Desktop-PCs, Workstations, Laptops, Smartphones und jegliche weitere Endgeräte, die Sie für Ihren Geschäftsalltag benötigen.
-                        <br><br>Bei der Konfiguration und Installation von PCs setzen wir vor allem auf Server-Virtualisierung, durch die zentral gesteuert verschiedene Betriebssysteme gleichzeitig auf nur einem Server laufen können. Das schafft <span class="font-bold">Flexibilität</span> bei der Auswahl von Anwendungen, <span class="font-bold">Ausfallsicherheit</span> durch die Virtualisierung, <span class="font-bold">Sicherheit</span> durch automatische Backups und größtenteils problemlose <span class="font-bold">Erweiterbarkeit</span> des bestehenden Systems.
+                    <p class="leading-relaxed text-base">Wir setzen die Grundlage flexibler IT-Infrastrukturen und installieren und konfigurieren für Sie Desktop-PCs, Workstations, Laptops, Smartphones sowie weitere Endgeräte, die Sie für Ihren Geschäftsalltag benötigen.
+                        <br><br>Bei der Konfiguration und Installation von PCs setzen wir vor allem auf Server-Virtualisierung, durch die zentral gesteuert verschiedene Betriebssysteme gleichzeitig auf nur einem Server laufen können. Das schafft <span class="font-bold">Flexibilität</span> bei der Auswahl von Anwendungen, <span class="font-bold">Ausfallsicherheit</span> durch  Virtualisierung, <span class="font-bold">Schutz</span> durch automatische Backups und problemlose <span class="font-bold">Erweiterbarkeit</span> der bestehenden Systeme.
                     </p>
                 </div>
             </div>
