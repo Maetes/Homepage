@@ -37,7 +37,7 @@
         </x-card>
         <x-card>
             <x-slot name="title">Individuelle Softwarelösungen</x-slot>
-            Sie möchten Ihre individuellen Prozesse digitalisieren oder haben eine Idee die nicht in das Standardkorsett von anderen Lösungen passt? Kein Problem!
+            Sie möchten Ihre individuellen Prozesse digitalisieren oder haben eine Idee, die nicht in das Standardkorsett von anderen Lösungen passt? Kein Problem!
             <br><br>Hier sind wir mit modernsten Technologien fachlich bestens aufgestellt, um Sie zu beraten und Ihre maßgeschneiderte Lösung zu entwickeln.
         </x-card>
     </div>
@@ -146,7 +146,7 @@
                     </div>
                     <div class="flex-grow sm:pl-6 mt-6 sm:mt-0 transform group-hover:translate-x-2 ease-in-out duration-300">
                         <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">Tests und Einführung</h2>
-                        <p class="leading-relaxed">Durch definierte technische und fachliche Tests kann hohe Qualität und korrekte Umsetzung der definierten Anforderungen gewährleistet werden. Gemeinsam mit Ihnen wird das Produkt in Ihrem Unternehmen implementiert. Bei Bedarf übernehmen wir gerne die Schulung Ihrer Mitarbeiter, vor Ort oder in einem Onlineseminar.</p>
+                        <p class="leading-relaxed">Durch technische und fachliche Tests kann hohe Qualität und korrekte Umsetzung der definierten Anforderungen gewährleistet werden. Gemeinsam mit Ihnen wird das Produkt in Ihrem Unternehmen implementiert. Bei Bedarf übernehmen wir gerne die Schulung Ihrer Mitarbeiter, vor Ort oder in einem Onlineseminar.</p>
                     </div>
                 </div>
             </div>

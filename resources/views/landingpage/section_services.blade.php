@@ -18,9 +18,10 @@
                         <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
                     </svg>
                 </div>
-                <div class="flex-grow">
+                <div class="flex-grow text-justify">
                     <h2 class="text-gray-900 text-lg font-title font-bold mb-3">Softwareentwicklung</h2>
-                    <p class="leading-relaxed text-base font-basic flex-grow text-justify">Wir entwickeln die Webseite oder App, die Sie sich wünschen: Landingpages, Unternehmensportale, CMS-Systeme oder auch völlig individuelle Softwarelösungen. Einen Auszug unserer verwendeten Technologien finden Sie in unserem Portfolio.</p>
+                    <p class="leading-relaxed text-base font-basic flex-grow text-justify">Wir entwickeln die Webseite oder App, die Sie sich wünschen:
+                        <br>Landingpages, Unternehmensportale, CMS-Systeme oder auch völlig individuelle Softwarelösungen. Einen Auszug unserer verwendeten Technologien finden Sie in unserem Portfolio.</p>
                     <a class="mt-3 text-mtw-primary inline-flex items-center font-basic" href="{{ route('services.softwareentwicklung') }}">Hier erfahren Sie mehr
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -53,7 +54,8 @@
                 </div>
                 <div class="flex-grow">
                     <h2 class="text-gray-900 text-lg font-title font-bold mb-3">Informations- und Telekommunikationstechnik</h2>
-                    <p class="leading-relaxed font-basic text-base text-justify">Sie benötigen technische Ausstattung oder kompetente Hilfe bei der Beschaffung und Installation von neuer Hardware? Als technischer Partner stehen wir Ihnen zu jeder Zeit zur Seite.</p>
+                    <p class="leading-relaxed font-basic text-base text-justify">Sie benötigen technische Ausstattung oder kompetente Hilfe bei der Beschaffung und Installation von neuer Hardware?
+                        <br>Als technischer Partner stehen wir Ihnen zu jeder Zeit zur Seite.</p>
                     <a class="mt-3 text-mtw-primary inline-flex items-center font-basic" href="{{ route('services.itk-services') }}">Weitere Informationen
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
