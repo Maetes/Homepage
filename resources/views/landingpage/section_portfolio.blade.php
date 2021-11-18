@@ -66,7 +66,7 @@
                 <p class="leading-relaxed text-base font-basic text-justify">
                     Shopware ist die ideale Wahl für alle Unternehmen, die einen kundenorientierten und erfolgreichen Onlineshop betreiben möchten.
                     Durch die einfache und intuitiv zu bedienende Backend-Oberfläche sind Shop-Betreiber in der Lage, im laufenden Betrieb viele
-                    Änderungen an Website und Shop selbständig vorzunehmen.
+                    Änderungen an Webseite und Shop selbständig vorzunehmen.
                 </p>
                 {{--
                 <a class="mt-3 text-blue-500 inline-flex items-center font-basic">Learn More

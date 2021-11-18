@@ -22,7 +22,7 @@
                     <img alt="gallery" class="absolute inset-0 w-full h-full object-contain object-center sm:p-16 p-4" src="{{ asset('/img/logos/old/mundsbau.webp') }}">
                     <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 ease-in-out duration-500">
                         <h1 class="title-font text-lg font-medium text-gray-900 mb-3">M&S Bau und Dach GmbH</h1>
-                        <p class="leading-relaxed">Neugestaltung der bestehenden Seite.</p>
+                        <p class="leading-relaxed">Neugestaltung der bestehenden Webseite.</p>
                         {{-- <a class="text-mtw-primary pt-2" href="https://www.mundsbau24.de/" target="_blank" >Zur Webseite</a> --}}
                     </div>
                 </div>

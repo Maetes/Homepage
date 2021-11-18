@@ -15,7 +15,7 @@
                 <div class="w-full sm:p-4 px-4 mb-6">
                 <h1 class="title-font font-medium text-xl mb-2 text-gray-900">Netzwerktechnik</h1>
                 <p class="leading-relaxed text-base pb-4">Mit der zunehmenden Digitalisierung ist es wichtig, dass alle Geräte reibungslos miteinander kommunizieren können und das gesamte Unternehmen vernetzt ist. Das ist eine komplexe Aufgabe, die wir gerne für Sie übernehmen:
-                    <br>Vom Aufbau Ihres Netzwerks mit Servern, LAN und W-LAN, bis hin zur Verkabelung und drahtlosen Vernetzung aller Endgeräte.
+                    <br><br>Vom Aufbau Ihres Netzwerks mit Servern, LAN und W-LAN, bis hin zur Verkabelung und drahtlosen Vernetzung aller Endgeräte.
                     <br><br>Gerne beraten wir Sie auch beim Ausbau, Instandhaltung und der Problembehebung bestehender Infrastruktur.
                 <p>
                 </div>
@@ -72,7 +72,7 @@
                 <div class="w-full sm:p-4 px-4 mb-6">
                 <h1 class="title-font font-medium text-xl mb-2 text-gray-900">Wartung und Support</h1>
                 <p class="leading-relaxed text-base">Zusätzlich zu unseren anderen Leistungen bieten wir auch grundsätzlichen Support in allen IT-Fragen und Problemen des Alltagsgeschäfts.
-                    <br><br>Ein PC ist ausgefallen ? Internetverbindungen funktionieren nicht mehr ? Sie können sich nicht mehr anmelden ? Sie benötigen Hilfe bei der Einrichtung eines neuen Geräts ?
+                    <br><br>Ein PC ist ausgefallen? Internetverbindungen funktionieren nicht mehr? Sie können sich nicht mehr anmelden? Sie benötigen Hilfe bei der Einrichtung eines neuen Geräts?
                     <br><br>Zusammen finden wir eine Lösung für Ihr Problem.
                 </p>
                 </div>
