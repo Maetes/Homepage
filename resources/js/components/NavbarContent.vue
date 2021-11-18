@@ -20,7 +20,7 @@
 
                 <a class="relative inline-flex items-center hover:text-mtw-secondary ease-in-out duration-300" :class="{'border-b-4 border-mtw-secondary': windowHash==='#referenzen'}" :href="route('home')+'#referenzen'">Referenzen</a>
 
-                <a class="relative inline-flex items-center hover:text-mtw-secondary ease-in-out duration-300" :class="{'border-b-4 border-mtw-secondary': windowHash==='#referenzen'}" :href="route('home')+'#team'">Team</a>
+                <a class="relative inline-flex items-center hover:text-mtw-secondary ease-in-out duration-300" :class="{'border-b-4 border-mtw-secondary': windowHash==='#team'}" :href="route('home')+'#team'">Team</a>
 
                 <!-- <dropdown href="/#team" dropdownText="Über uns" :linkClass="isNavActive('team')">
                     <dropdown-link href="/team/martinmüller">Martin Müller</dropdown-link>
