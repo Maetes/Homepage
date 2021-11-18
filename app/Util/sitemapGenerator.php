@@ -34,24 +34,24 @@ class sitemapGenerator
                 ->setChangeFrequency(Url::CHANGE_FREQUENCY_WEEKLY)
                 ->setPriority(0.8)
         );
-        $sitemap->add(
-            Url::create(route('team.sven'))
-                ->setLastModificationDate(Carbon::yesterday())
-                ->setChangeFrequency(Url::CHANGE_FREQUENCY_WEEKLY)
-                ->setPriority(0.6)
-        );
-        $sitemap->add(
-            Url::create(route('team.martin'))
-                ->setLastModificationDate(Carbon::yesterday())
-                ->setChangeFrequency(Url::CHANGE_FREQUENCY_WEEKLY)
-                ->setPriority(0.6)
-        );
-        $sitemap->add(
-            Url::create(route('team.tim'))
-                ->setLastModificationDate(Carbon::yesterday())
-                ->setChangeFrequency(Url::CHANGE_FREQUENCY_WEEKLY)
-                ->setPriority(0.6)
-        );
+        // $sitemap->add(
+        //     Url::create(route('team.sven'))
+        //         ->setLastModificationDate(Carbon::yesterday())
+        //         ->setChangeFrequency(Url::CHANGE_FREQUENCY_WEEKLY)
+        //         ->setPriority(0.6)
+        // );
+        // $sitemap->add(
+        //     Url::create(route('team.martin'))
+        //         ->setLastModificationDate(Carbon::yesterday())
+        //         ->setChangeFrequency(Url::CHANGE_FREQUENCY_WEEKLY)
+        //         ->setPriority(0.6)
+        // );
+        // $sitemap->add(
+        //     Url::create(route('team.tim'))
+        //         ->setLastModificationDate(Carbon::yesterday())
+        //         ->setChangeFrequency(Url::CHANGE_FREQUENCY_WEEKLY)
+        //         ->setPriority(0.6)
+        // );
         $sitemap->add(
             Url::create(route('datenschutzerklärung'))
                 ->setLastModificationDate(Carbon::yesterday())
