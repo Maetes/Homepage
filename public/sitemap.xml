@@ -85,12 +85,6 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/it-consulting/sankt+augustin</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/it-consulting/sankt-augustin</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -157,19 +151,7 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/it-consulting/bad+honnef</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/it-consulting/rheinbach</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
-        <loc>https://mtw-it.de/services/it-consulting/bad+neuenahr</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -265,12 +247,6 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/consulting/sankt+augustin</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/consulting/sankt-augustin</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -337,19 +313,7 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/consulting/bad+honnef</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/consulting/rheinbach</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
-        <loc>https://mtw-it.de/services/consulting/bad+neuenahr</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -445,12 +409,6 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/beratung/sankt+augustin</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/beratung/sankt-augustin</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -517,19 +475,7 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/beratung/bad+honnef</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/beratung/rheinbach</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
-        <loc>https://mtw-it.de/services/beratung/bad+neuenahr</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -625,12 +571,6 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/webentwicklung/sankt%20augustin</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/webentwicklung/sankt-augustin</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -697,19 +637,7 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/webentwicklung/bad%20honnef</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/webentwicklung/rheinbach</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
-        <loc>https://mtw-it.de/services/webentwicklung/bad%20neuenahr</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -805,12 +733,6 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/appentwicklung/sankt%20augustin</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/appentwicklung/sankt-augustin</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -877,19 +799,7 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/appentwicklung/bad%20honnef</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/appentwicklung/rheinbach</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
-        <loc>https://mtw-it.de/services/appentwicklung/bad%20neuenahr</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -985,12 +895,6 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/website-erstellung/sankt%20augustin</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/website-erstellung/sankt-augustin</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -1057,19 +961,7 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/website-erstellung/bad%20honnef</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/website-erstellung/rheinbach</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
-        <loc>https://mtw-it.de/services/website-erstellung/bad%20neuenahr</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -1165,12 +1057,6 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/ikt-services/sankt%20augustin</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/ikt-services/sankt-augustin</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -1237,19 +1123,7 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/ikt-services/bad%20honnef</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/ikt-services/rheinbach</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
-        <loc>https://mtw-it.de/services/ikt-services/bad%20neuenahr</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -1345,12 +1219,6 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/itk-services/sankt%20augustin</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/itk-services/sankt-augustin</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -1417,19 +1285,7 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/itk-services/bad%20honnef</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/itk-services/rheinbach</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
-        <loc>https://mtw-it.de/services/itk-services/bad%20neuenahr</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -1525,12 +1381,6 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/itk/sankt%20augustin</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/itk/sankt-augustin</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -1597,19 +1447,7 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/itk/bad%20honnef</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/itk/rheinbach</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
-        <loc>https://mtw-it.de/services/itk/bad%20neuenahr</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -1705,12 +1543,6 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/ikt/sankt%20augustin</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/ikt/sankt-augustin</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -1777,19 +1609,7 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/ikt/bad%20honnef</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/ikt/rheinbach</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
-        <loc>https://mtw-it.de/services/ikt/bad%20neuenahr</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -1885,12 +1705,6 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/netzwerktechnik/sankt%20augustin</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/netzwerktechnik/sankt-augustin</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -1957,19 +1771,7 @@
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://mtw-it.de/services/netzwerktechnik/bad%20honnef</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
         <loc>https://mtw-it.de/services/netzwerktechnik/rheinbach</loc>
-        <lastmod>2021-11-17T00:00:00+01:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
-        <loc>https://mtw-it.de/services/netzwerktechnik/bad%20neuenahr</loc>
         <lastmod>2021-11-17T00:00:00+01:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>

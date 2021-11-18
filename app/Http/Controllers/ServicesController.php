@@ -61,13 +61,16 @@ class ServicesController extends Controller
 
     public function genericService(Request $request, String $service, String $ort=null)
     {
+        // dd($service,config('data.servicesItBeratung'));
+
         $this->validateService($service);
         // dd(in_array($service,$this->servicesSoftwareentwicklung));
         if(in_array($service,config('data.servicesSoftwareentwicklung'))){
             if($ort){
                 $this->validateOrt($ort);
+                $ort=str_replace('-',' ',$ort);
             }
-            $this->setMeta($ort,ucfirst($service));
+            $this->setMeta($ort,ucwords($service));
             SEOMeta::setCanonical(route('services.softwareentwicklung'));
 
             return view('services.softwareentwicklung.index');
@@ -75,8 +78,9 @@ class ServicesController extends Controller
         else if(in_array($service,config('data.servicesItBeratung'))){
             if($ort){
                 $this->validateOrt($ort);
+                $ort=str_replace('-',' ',$ort);
             }
-            $this->setMeta($ort,ucfirst($service));
+            $this->setMeta($ort,ucwords($service));
             SEOMeta::setCanonical(route('services.it-beratung'));
 
             return view('services.it-beratung.index');
@@ -84,8 +88,9 @@ class ServicesController extends Controller
         else if(in_array($service,config('data.servicesItk'))){
             if($ort){
                 $this->validateOrt($ort);
+                $ort=str_replace('-',' ',$ort);
             }
-            $this->setMeta($ort,ucfirst($service));
+            $this->setMeta($ort,ucwords($service));
             SEOMeta::setCanonical(route('services.itk-services'));
             return view('services.itk-services.index');
         }
@@ -117,14 +122,14 @@ class ServicesController extends Controller
 
     private function setMeta(String $ort=null, String $service){
         if ($ort){
-            $title = $service.' in '.ucfirst($ort).' und Umgebung | MTW IT-Solutions';
+            $title = $service.' in '.ucwords($ort).' und Umgebung | MTW IT-Solutions';
             SEOMeta::setTitleDefault($title);
             JsonLd::setTitle($title);
             OpenGraph::setTitle($title);
 
-            SEOMeta::addKeyword(ucfirst($ort));
+            SEOMeta::addKeyword(ucwords($ort));
 
-            $description = 'Wir sind Ihr kompetenter Partner für ⚫'.$service.'⚫ in '.ucfirst($ort).' und Umgebung. Nehmen Sie gerne Kontakt mit uns auf.';
+            $description = 'Wir sind Ihr kompetenter Partner für ⚫'.$service.'⚫ in '.ucwords($ort).' und Umgebung. Nehmen Sie gerne Kontakt mit uns auf.';
             SEOMeta::setDescription($description);
             JsonLd::setDescription($description);
             OpenGraph::setDescription($description);
