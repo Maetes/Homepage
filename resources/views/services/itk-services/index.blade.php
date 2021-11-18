@@ -85,7 +85,7 @@
                 <div class="w-full sm:p-4 px-4 mb-6">
                 <h1 class="title-font font-medium text-xl mb-2 text-gray-900">Wartung und Support</h1>
                 <p class="leading-relaxed text-base">Zusätzlich zu unseren anderen Leistungen bieten wir auch grundsätzlichen Support in allen IT-Fragen und Problemen des Alltagsgeschäfts.
-                    <br><br>Ein PC ist ausgefallen ? Internetverbindungen funktionieren nicht mehr ? Sie können sich nicht mehr anmelden ? Sie benötigen Hilfe bei der Einrichtung eines neuen Geräts ?
+                    <br><br>Ein PC ist ausgefallen? Internetverbindungen funktionieren nicht mehr? Sie können sich nicht mehr anmelden? Sie benötigen Hilfe bei der Einrichtung eines neuen Geräts?
                     <br><br>Zusammen finden wir eine Lösung für Ihr Problem.
                 </p>
             </div>
