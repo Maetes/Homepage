@@ -1,7 +1,7 @@
 import { createApp } from 'vue';
 import { ZiggyVue } from 'ziggy';
 import { Ziggy } from './ziggy';
-import CustomerLogoSlider from "./components/CustomerLogoSlider";
+// import CustomerLogoSlider from "./components/CustomerLogoSlider";
 import FixedNavbar from "./components/FixedNavbar";
 import MenuComponent from "./components/MenuComponent";
 import NavbarContent from "./components/NavbarContent";
@@ -12,7 +12,7 @@ import Dropdown from "./components/Dropdown";
 import DropdownLink from "./components/DropdownLink";
 import MobileMenu from "./components/MobileMenu";
 // import Contact from "./components/Contact";
-import LogoContainer from "./components/LogoContainer";
+// import LogoContainer from "./components/LogoContainer";
 import LazyLoad from "./components/LazyLoad";
 // import MobileContactForm from "./components/MobileContactForm";
 // import FloatingContactForm from "./components/FloatingContactForm";
@@ -23,7 +23,7 @@ const app = createApp({})
     .component('fixednavbar',FixedNavbar)
     .component('menucomponent',MenuComponent)
     .component('navbarcontent',NavbarContent)
-    .component('customerlogoslider',CustomerLogoSlider)
+    // .component('customerlogoslider',CustomerLogoSlider)
     .component('contactform',ContactForm)
     .component('typewriter',Typewriter)
     .component('fabbutton',FabButton)
@@ -31,7 +31,7 @@ const app = createApp({})
     .component('dropdownlink',DropdownLink)
     .component('mobilemenu',MobileMenu)
     // .component('contact',Contact)
-    .component('logocontainer',LogoContainer)
+    // .component('logocontainer',LogoContainer)
     .component('lazyload',LazyLoad)
     // .component('mobilecontactform',MobileContactForm)
     // .component('floatingcontactform',FloatingContactForm)
