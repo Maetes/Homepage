@@ -10,7 +10,9 @@
 
 
 @layer base {
-
+    .top-min-height{
+        min-height: 600px;
+    }
 
     .text-decoration-color-primary-lighter{
         text-decoration-color: #7FACBF;

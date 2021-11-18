@@ -1,6 +1,6 @@
 {{--<span class="absolute z-0 top-0 h-full w-full bg-gradient-to-t from-white via-mtw-lightblue to-mtw-lightblue" style="clip-path: polygon(0 0, 100% 0, 100% 79%, 20% 100%, 0 100%, 0 50%);"></span>--}}
 {{--<span class="absolute z-0 top-0 h-full w-full bg-mtw-primary bg-opacity-50" style="clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%, 0 100%);"></span>--}}
-<span class="absolute z-0 top-0 h-full w-full bg-mtw-primary bg-opacity-50"></span>
+<span class="absolute z-0 top-0 h-full w-full top-min-height bg-mtw-primary bg-opacity-50"></span>
 {{--<span class="absolute z-0 top-0 h-full w-full" ></span>--}}
 
 
@@ -15,9 +15,9 @@
         <NavbarContent></NavbarContent>
     </div>
     <div class="flex-auto -mt-20 z-10" >
-        <div class="flex flex-col h-full justify-center ">
+        <div class="flex flex-col top-min-height h-full justify-center ">
             <div class="flex flex-col sm:mt-auto sm:flex-row justify-center items-center">
-                <div class="font-title h-64 pb-10 sm:pb-0 pl-10  text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mr-10">
+                <div class="font-title h-64 pb-10 sm:pb-0 pl-10  text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mr-10 2xl:mr-48">
                     <h1 class="">Wir schaffen Ihre</h1>
 {{--                    <h1 class="h-20 inline-flex bg-clip-text font-extrabold text-transparent bg-gradient-to-br via-mtw-primary from-mtw-primary to-mtw-secondary">IT-Lösung</h1>--}}
                     <h1 class="h-10 sm:h-20 inline-flex text-mtw-primary">IT-Lösungen</h1>

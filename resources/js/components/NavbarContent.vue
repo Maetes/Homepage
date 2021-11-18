@@ -4,28 +4,32 @@
             <a href="/">
                 <img src="/img/logos/mtw.png" style="width: 100px;" alt="Logo">
             </a>
-            <div class="hidden md:block lg:hidden">
+            <div class="hidden sm:block lg:hidden">
                 <MenuComponent @disableNavbar="emitDisableNavbar" ref="menu"></MenuComponent>
             </div>
             <div  class="hidden h-full relative lg:flex w-3/5 justify-between items-center">
+                <a class="relative inline-flex items-center hover:text-mtw-secondary ease-in-out duration-300" :href="route('home')">Home</a>
+
                 <dropdown href="/#services" dropdownText="Services" :linkClass="isNavActive('services')">
                     <dropdown-link href="/services/softwareentwicklung">Softwareentwicklung</dropdown-link>
                     <dropdown-link href="/services/it-beratung">IT-Beratung</dropdown-link>
                     <dropdown-link href="/services/informations-und-telekommunikationstechnik">Informations- und Telekommunikationstechnik</dropdown-link>
                 </dropdown>
 
-                <a class="relative inline-flex items-center" :class="{'border-b-4 border-mtw-secondary': windowHash==='#portfolio'}" href="/#portfolio">Portfolio</a>
+                <a class="relative inline-flex items-center hover:text-mtw-secondary ease-in-out duration-300" :class="{'border-b-4 border-mtw-secondary': windowHash==='#portfolio'}" :href="route('home')+'#portfolio'">Portfolio</a>
 
-                <a class="relative inline-flex items-center" :class="{'border-b-4 border-mtw-secondary': windowHash==='#referenzen'}" href="/#referenzen">Referenzen</a>
+                <a class="relative inline-flex items-center hover:text-mtw-secondary ease-in-out duration-300" :class="{'border-b-4 border-mtw-secondary': windowHash==='#referenzen'}" :href="route('home')+'#referenzen'">Referenzen</a>
 
-                <dropdown href="/#team" dropdownText="Über uns" :linkClass="isNavActive('team')">
+                <a class="relative inline-flex items-center hover:text-mtw-secondary ease-in-out duration-300" :class="{'border-b-4 border-mtw-secondary': windowHash==='#referenzen'}" :href="route('home')+'#team'">Team</a>
+
+                <!-- <dropdown href="/#team" dropdownText="Über uns" :linkClass="isNavActive('team')">
                     <dropdown-link href="/team/martinmüller">Martin Müller</dropdown-link>
                     <dropdown-link href="/team/timtomczak">Tim Tomczak</dropdown-link>
                     <dropdown-link href="/team/svenwalbröl">Sven Walbröl</dropdown-link>
-                </dropdown>
+                </dropdown> -->
 
                 <div>
-                    <a href="/#kontakt" class="rounded-xl shadow-md px-4 py-2 inline-flex text-mtw-secondary items-center text-lg" :class="[showFixedNavbar ? 'bg-mtw-text ' : 'bg-mtw-primary ']" >Kontakt</a>
+                    <a :href="route('home')+'#kontakt'" class="rounded-xl shadow-md px-4 py-2 inline-flex text-mtw-secondary items-center text-lg" :class="[showFixedNavbar ? 'bg-mtw-text ' : 'bg-mtw-primary ']" >Kontakt</a>
                 </div>
                 <!-- <a class="relative inline-flex items-center" :class="{'border-b-4 border-mtw-secondary': windowHash==='#kontakt'}" href="/#kontakt">Kontakt</a> -->
                 <!-- <div>

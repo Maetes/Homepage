@@ -1,5 +1,5 @@
 <section class="text-gray-800 font-basic">
-    <div id="services" class="container px-5 py-24 mx-auto">
+    <div id="services" class="container px-5 py-32 sm:py-24 mx-auto">
         <div class="text-center mb-20">
             <h2 class="sm:text-3xl text-2xl font-semibold font-title text-mtw-text mb-4">Unsere Services</h2>
 {{--            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p>--}}

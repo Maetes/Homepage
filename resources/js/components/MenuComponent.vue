@@ -28,13 +28,14 @@
 					</div>
 					<div class="sm:py-20 pt-5">
 						<div class="flex flex-col items-start font-medium sm:text-xl text-lg">
-							<a @click="toggleMenu" class="w-full flex items-start transform hover:translate-x-1 pl-3 sm:px-10 py-3 border-b border-gray-300 text-left" :href="route('home') + '#services'">Services</a>
-							<a @click="toggleMenu" class="w-full flex items-start transform hover:translate-x-1 pl-3 sm:px-10 py-3 border-b border-gray-300 text-left break-long-text" :href="route('services.softwareentwicklung')">Softwareentwicklung</a>
-							<a @click="toggleMenu" class="w-full flex items-start transform hover:translate-x-1 pl-3 sm:px-10 py-3 border-b border-gray-300 text-left" :href="route('services.it-beratung')">IT-Beratung</a>
-							<a @click="toggleMenu" class="w-full flex items-start transform hover:translate-x-1 pl-3 sm:px-10 py-3 border-b border-gray-300 text-left break-long-text" :href="route('services.itk-services')">Informations- und Telekommunikationstechnik</a>
-							<a @click="toggleMenu" class="w-full flex items-start transform hover:translate-x-1 pl-3 sm:px-10 py-3 border-b border-gray-300 text-left" :href="route('home') + '#portfolio'">Portfolio</a>
-							<a @click="toggleMenu" class="w-full flex items-start transform hover:translate-x-1 pl-3 sm:px-10 py-3 border-b border-gray-300 text-left" :href="route('home') + '#referenzen'">Referenzen</a>
-							<a @click="toggleMenu" class="w-full flex items-start transform hover:translate-x-1 pl-3 sm:px-10 py-3 text-left" :href="route('home') + '#team'">Team</a>
+							<a @click="toggleMenu" class="w-full flex items-start transform hover:translate-x-1 hover:bg-mtw-primary hover:text-mtw-secondary ease-in-out duration-300 pl-3 sm:px-10 py-3 border-b border-gray-300 text-left" :href="route('home')">Home</a>
+							<a @click="toggleMenu" class="w-full flex items-start transform hover:translate-x-1 hover:bg-mtw-primary hover:text-mtw-secondary ease-in-out duration-300 pl-3 sm:px-10 py-3 border-b border-gray-300 text-left" :href="route('home') + '#services'">Services</a>
+							<a @click="toggleMenu" class="w-full flex items-start transform hover:translate-x-1 hover:bg-mtw-primary hover:text-mtw-secondary ease-in-out duration-300 pl-3 sm:px-10 py-3 border-b border-gray-300 text-left break-long-text" :href="route('services.softwareentwicklung')">Softwareentwicklung</a>
+							<a @click="toggleMenu" class="w-full flex items-start transform hover:translate-x-1 hover:bg-mtw-primary hover:text-mtw-secondary ease-in-out duration-300 pl-3 sm:px-10 py-3 border-b border-gray-300 text-left" :href="route('services.it-beratung')">IT-Beratung</a>
+							<a @click="toggleMenu" class="w-full flex items-start transform hover:translate-x-1 hover:bg-mtw-primary hover:text-mtw-secondary ease-in-out duration-300 pl-3 sm:px-10 py-3 border-b border-gray-300 text-left break-long-text" :href="route('services.itk-services')">Informations- und Telekommunikationstechnik</a>
+							<a @click="toggleMenu" class="w-full flex items-start transform hover:translate-x-1 hover:bg-mtw-primary hover:text-mtw-secondary ease-in-out duration-300 pl-3 sm:px-10 py-3 border-b border-gray-300 text-left" :href="route('home') + '#portfolio'">Portfolio</a>
+							<a @click="toggleMenu" class="w-full flex items-start transform hover:translate-x-1 hover:bg-mtw-primary hover:text-mtw-secondary ease-in-out duration-300 pl-3 sm:px-10 py-3 border-b border-gray-300 text-left" :href="route('home') + '#referenzen'">Referenzen</a>
+							<a @click="toggleMenu" class="w-full flex items-start transform hover:translate-x-1 hover:bg-mtw-primary hover:text-mtw-secondary ease-in-out duration-300 pl-3 sm:px-10 py-3 text-left" :href="route('home') + '#team'">Team</a>
 							<!-- <a @click="toggleMenu" href="/kundencenter" class="rounded-xl shadow-md bg-mtw-primary px-4 py-2 flex inline-flex text-mtw-secondary items-center">
                                 <span class="pr-2">Kundencenter</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
